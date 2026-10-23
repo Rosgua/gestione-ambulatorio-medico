@@ -1,0 +1,20 @@
+Modello logico- gestione ambulatorio medico
+CARTELLA CLINICA ( codice_cartellbv+ììa,  esami svolti, interventi passati, malattie infettive, terapie effettuate, referti di esami, vaccini effettuati, diagnosi precedenti,  sintomi mostrati, parametri vitali, piani di trattamento, paziente_id)
+
+PAZIENTE ( paziente_id, nome, cognome, indirizzo ,numero di telefono, data nascita, sesso, email)
+
+APPUNTAMENTO ( id_appuntamento, data, orario, tipologia, paziente_id, medico_id)
+
+VISITA (codice_visita, costo, referto, id_appuntamento)
+
+FEEDBACK (id_feedback, rating, commento, codice_visita)
+
+PRESCRIZIONE (id_prescrizione, dosaggio, data, durata, codice_visita, id_farmaco)
+
+INVENTARIO FARMACEUTICO (id_farmaco, nome farmaco, quantità disponibili, descrizione, data di scadenza)
+
+PERSONALE SANITARIO ( id_personale, disponibilità, tipo)
+
+MEDICO (id_medico , Specializzazione, id_personale)
+
+INFERMERIE  (id_infermiere, reparto, id_personale)

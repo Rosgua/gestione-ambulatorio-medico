@@ -1,0 +1,223 @@
+#1 Gestione dei Pazienti: Inserire e aggiornare i dati dei pazienti, inclusi i dettagli personali e la storia medica.
+ insert into Paziente(pazienteID, Nome, Cognome, Via, citta_residenza, postalcode, gender, borndate, citta_nascita, email, phonenumber) 
+ values ('axsmo9nx0','Michela','Rossi','Via marco polo','sarno','84087','female','2002-08-09','salerno','michela.rossi02@gmail.com','3426653452');
+ 
+ update Paziente
+ set phonenumber = '3478927812'
+ where pazienteId = 'axsmo9nx0';
+ 
+ INSERT INTO CartellaClinica (codice_cartella, gruppo_sanguigno, pazienteID)
+VALUES ('nwncow7vs', 'AB+', 'axsmo9nx0'); 
+
+INSERT INTO Intervento VALUES ('Appendicectomia', '2022-05-12', 'nwncow7vs');
+INSERT INTO Esame VALUES ('Esami delle urine', '2023-10-17', 'nwncow7vs');
+INSERT INTO Terapia VALUES ('Psicoterapia', '2024-01-10', 'nwncow7vs');
+INSERT INTO Allergia VALUES ('Acari', 'nwncow7vs');
+INSERT INTO Vaccino VALUES( 'COVID-19', '2022-01-13', 'nwncow7vs');
+INSERT INTO Vaccino VALUES( 'PapillomaVirus', '2015-10-03', 'nwncow7vs');
+
+ #2 Programmazione degli Appuntamenti: Registrare e gestire gli appuntamenti per i pazienti con il personale sanitario appropriato
+ insert into APPUNTAMENTO (giorno, ora_inizio, ora_fine, tipoApp, pazienteID, personaleID) 
+ values ('mercoledi', '14:48', '15:09', 'specialistica', 'axsmo9nx0', 48);
+ 
+ #3 Gestione delle Cartelle Cliniche: Memorizzare e accedere alle cartelle cliniche dei pazienti, inclusi diagnosi, trattamenti
+ select CC.codice_cartella, CC.gruppo_sanguigno, I.nome_intervento, I.DATA_intervento,
+ E.nome_esame, E.data_esame , T.nome_terapia, T.data as dataInizioT, A.nome_allergia,
+ V.nome_vaccino, V.data as dataVaccinazione
+ from cartellaclinica CC JOIN Intervento I ON CC.codice_cartella= I.codice_cartella
+ JOIN Esame E ON CC.codice_cartella= E.codice_cartella
+ JOIN Terapia T ON CC.codice_cartella= T.codice_cartella
+ JOIN Allergia A ON CC.codice_cartella= A.codice_cartella
+ JOIN Vaccino V  ON CC.codice_cartella= V.codice_cartella
+ where pazienteId = 'axsmo9nx0';
+ 
+#4 Prescrizioni: Emettere e tracciare le prescrizioni, assicurandosi che le informazioni sul dosaggio e sulla rinnovabilità siano correttamente gestite.
+insert into Visita(codice_visita,costo,sintomi_mostrati,parametri_vitali,trattamento_effettuato,diagnosi,codiceAppuntamento)
+values('VIS300', '40.00' , 'febbre', null, 'trattamento antibiotico', 'influenza', 194);
+
+insert into Prescrizione(id_farmaco, dosaggio_mg, durata_giorni, codice_visita) 
+values('F012', '200', 4, 'VIS300'); 
+ 
+ #5  Registro del Personale Sanitario: Gestire un elenco di tutto il personale sanitario, 
+ #comprese le qualifiche, le specializzazioni e gli orari di lavoro.
+ select *
+ from personalesanitario
+ order by tipologia;
+ 
+ select * 
+ from specialista
+ order by specializzazione;
+ 
+ select * 
+ from disponibilitàpersonale;
+ 
+ #6  Reportistica sulla Salute dei Pazienti: Generare report sulla prevalenza di condizioni mediche, trattamenti effettuati
+ CREATE VIEW conteggioD AS
+ SELECT count(*) as NumDiagnosi, diagnosi
+ FROM visita
+ GROUP BY diagnosi;
+ 
+ SELECT MAX(NumDiagnosi)
+ FROM conteggioD
+ INTO @MAXD;
+ 
+ SELECT diagnosi, numDiagnosi
+ FROM conteggioD 
+ WHERE numDiagnosi = @MaxD;
+                          
+select count(trattamento_effettuato), trattamento_effettuato
+ from visita
+ group by trattamento_effettuato
+ having count(trattamento_effettuato)= (select max(mycount) 
+                          from (select count(trattamento_effettuato) as mycount
+                          from visita 
+						  group by trattamento_effettuato) as a2);
+ 
+ #7  Gestione dell'Inventario Farmaceutico: Tracciare l'inventario dei farmaci disponibili e le necessità di rifornimento.
+ select *
+ from inventario
+ order by nome_farmaco;
+ 
+ select nome_farmaco, quantità_disp, id_farmaco
+ from inventario 
+ where quantità_disp< 20;
+ 
+#8 Analisi delle Prestazioni del Personale: Valutare le prestazioni del personale sanitario basandosi sul 
+ #feedback dei pazienti e sui risultati dei trattamenti.
+ SELECT personaleID, rating, commento, diagnosi
+ FROM visita as v JOIN feedback as f ON v.codice_visita=f.codice_visita
+ JOIN appuntamento as a ON v.codiceAppuntamento=a.codiceAppuntamento
+ ORDER BY rating;
+ 
+ #9 Calcolare il numero di pazienti per medico
+ select p.personaleID,personalenome, personalecognome, count(pazienteId) as numPazienti
+ from personalesanitario as p join appuntamento as a on p.personaleID=a.personaleID
+ where tipologia= 'medico' or 'specialista'
+ group by p.personaleID, personalenome, personalecognome;
+ 
+#10 calcolare l'età media dei pazienti
+select avg(YEAR(curdate()) - YEAR(borndate)) as etàMedia
+from paziente; 
+
+#11  calcolare la Percentuale delle donne assunte nell'ambulatorio
+SELECT count(*)
+FROM personalesanitario
+INTO @num_tot;
+
+SELECT (count(*)/@num_tot)*100 as perc_donne
+FROM personalesanitario
+WHERE gender = 'Female';
+
+#12 Calcolare la percentuale di prescrizioni per un singolo farmaco
+SELECT count(*)
+FROM prescrizione
+INTO @num_tot;
+
+SELECT (count(*)/@num_tot)*100 as perc_farmaco, id_farmaco
+FROM prescrizione
+GROUP BY id_farmaco;
+
+ #13 calcola le malattie rare non risolvibili in ambulatorio
+SELECT COUNT(diagnosi)
+FROM visita 
+INTO @num_tot;
+
+SELECT diagnosi as malattie_rare, count(diagnosi)
+FROM visita
+GROUP BY diagnosi
+HAVING (COUNT(diagnosi)/@num_tot) < 0.05;
+
+#14 visualizza il medico che ha ricevuto più feedback negativi
+SELECT A.personaleID,rating, PersonaleNome, Personalecognome
+FROM visita V JOIN appuntamento A ON V.codiceAppuntamento=A.codiceAppuntamento
+JOIN PersonaleSanitario PS ON A.personaleID = PS.personaleID
+JOIN feedback F ON V.codice_visita=F.codice_visita
+WHERE rating = (SELECT min(rating)
+				FROM feedback) ;
+
+                
+#15 quante visite urgenti ci sono state a marzo 2023
+select count(*) as NumVisiteUrgenti
+from appuntamento 
+where tipoApp = 'emergenza' and dataApp BETWEEN '2023-03-01' AND '2023-03-31';
+
+#16 quante persone non hanno vaccinazione contro il Covid-19
+select count(*) as NoVaX
+from Vaccino
+where nome_vaccino <> 'Covid-19';
+
+#17 quale reparto ha più infermieri
+create view RepartoNum as
+select reparto, count(personaleId) as numInf
+from infermiere
+group by reparto;
+
+select max(numInf) 
+from repartoNum
+INTO @max;
+
+select reparto, NumInf 
+from repartoNum
+where NumInf = @max;
+
+#18 visualizzare nome e cognome dei pazienti che hanno effettuato più di 1 appuntamento
+select nome, cognome, P.pazienteId, count(codiceAppuntamento) as NumAPP
+from paziente P, appuntamento A
+where P.pazienteID = A.pazienteID 
+group by P.pazienteId
+having count(A.pazienteID) >1;
+
+#19 a quanti pazienti è stato diagnosticato il tumore
+SELECT COUNT(pazienteID) as Pazienti_tumore
+FROM appuntamento A JOIN visita V ON A.codiceAppuntamento=V.codiceAppuntamento
+where diagnosi LIKE "tumore%"; 
+
+#20 chi è lo specialista più richiesto
+create view Vspecial as 
+select personaleId, count(*) as numApp
+from Appuntamento 
+where tipoApp = 'specialistica' and personaleId is NOT NULL
+group by personaleId;
+
+select max(numApp) 
+from Vspecial
+into @maxApp;
+
+select VS.personaleId, personalenome, personalecognome, specializzazione, numApp
+from  Vspecial as VS JOIN specialista as S ON VS.personaleID = S.personaleId 
+join personalesanitario as p on VS.personaleID=p.personaleID
+where numApp = @maxApp;
+
+ #21 quali sono i farmaci più usati della media per curare un infezione virale
+CREATE  VIEW Farmaco AS
+SELECT PR.id_farmaco, COUNT(PR.codice_visita) AS NumPrescrizioni, V.diagnosi
+FROM Prescrizione PR JOIN Visita V ON PR.codice_visita = V.codice_visita
+WHERE V.diagnosi = 'Gastroenterite'
+GROUP BY PR.id_farmaco, V.diagnosi;
+
+SELECT AVG(NumPrescrizioni) INTO @mediaPr
+FROM Farmaco;
+
+SELECT F.id_farmaco, F.diagnosi, I.nome_farmaco, F.NumPrescrizioni
+FROM Farmaco F
+JOIN inventario I ON F.id_farmaco = I.id_farmaco
+WHERE F.NumPrescrizioni > @mediaPr
+AND F.diagnosi = 'Gastroenterite';
+
+ 
+#22 costo medio per ciascuna tipologia di visita
+SELECT tipoApp, avg(costo)
+FROM visita as v JOIN appuntamento as a ON v.codiceAppuntamento=a.codiceAppuntamento
+GROUP BY tipoApp;
+
+#23 Visualizza i Pazienti affetti di dermatite
+SELECT A.Pazienteid, Nome, Cognome, gender, diagnosi
+From Appuntamento A JOIN Visita V ON A.codiceAppuntamento = V.codiceAppuntamento
+JOIN Paziente P ON A.pazienteId = P.PazienteID
+WHERE diagnosi = 'dermatite';
+
+
+
+
+
+ 

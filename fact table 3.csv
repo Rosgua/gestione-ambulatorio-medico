@@ -1,0 +1,398 @@
+ANNO,rating,id_farmaco,codice_visita,nome_farmaco,codiceAppuntamento,PazienteId,nome,cognome,personaleId,personaleNome,personalecognome,costo,trattamento_effettuato,diagnosi,giorno,ora_fine,ora_inizio,quantità_disp
+2021,1,NULL,NULL,NULL,3,1BX7x46a1,Nady,Hentzeler,1,Brit,Dron,100.00,"ECG, Ossigenoterapia","Infarto miocardico",lunedi,12:00:00,08:00:00,NULL
+2021,2,NULL,NULL,NULL,4,DVTDf89fc,Ariadne,Frankton,1,Brit,Dron,40.00,"Riposo, Idratazione",Emicrania,lunedi,12:00:00,08:00:00,NULL
+2021,2,NULL,NULL,NULL,9,Mg5hv29j2,Chiarra,Guillond,1,Brit,Dron,45.00,"Riposo, multivitaminico",Anemia,lunedi,12:00:00,08:00:00,NULL
+2021,2,NULL,NULL,NULL,16,iucuY9M33,Georges,Kruszelnicki,1,Brit,Dron,85.00,Fisioterapia,Borsite,lunedi,12:00:00,08:00:00,NULL
+2022,2,NULL,NULL,NULL,21,tsaT17Raw,Luce,Dufaur,1,Brit,Dron,90.00,"ECG ","Angina pectoris",lunedi,12:00:00,08:00:00,NULL
+2021,1,NULL,NULL,NULL,3,1BX7x46a1,Nady,Hentzeler,1,Brit,Dron,100.00,"ECG, Ossigenoterapia","Infarto miocardico",venerdi,12:00:00,08:00:00,NULL
+2021,2,NULL,NULL,NULL,4,DVTDf89fc,Ariadne,Frankton,1,Brit,Dron,40.00,"Riposo, Idratazione",Emicrania,venerdi,12:00:00,08:00:00,NULL
+2021,2,NULL,NULL,NULL,9,Mg5hv29j2,Chiarra,Guillond,1,Brit,Dron,45.00,"Riposo, multivitaminico",Anemia,venerdi,12:00:00,08:00:00,NULL
+2021,2,NULL,NULL,NULL,16,iucuY9M33,Georges,Kruszelnicki,1,Brit,Dron,85.00,Fisioterapia,Borsite,venerdi,12:00:00,08:00:00,NULL
+2022,2,NULL,NULL,NULL,21,tsaT17Raw,Luce,Dufaur,1,Brit,Dron,90.00,"ECG ","Angina pectoris",venerdi,12:00:00,08:00:00,NULL
+2020,1,NULL,NULL,NULL,75,C9w2gMFnn,Margaretta,Rembrant,12,Zacharie,Andrewartha,60.00,"Fisioterapia e trattamento immunosoppressivo","Artrite reattiva",martedi,13:00:00,09:00:00,NULL
+2020,1,NULL,NULL,NULL,84,Bzno2PKeV,Ernaline,Grinyer,12,Zacharie,Andrewartha,55.81,"Riabilitazione nerurolgica","sclerosi multipla",martedi,13:00:00,09:00:00,NULL
+2020,4,NULL,NULL,NULL,85,XgYgim8dC,Lyda,Rushford,12,Zacharie,Andrewartha,94.89,radioterapia,"tumore al fegato",martedi,13:00:00,09:00:00,NULL
+2020,2,NULL,NULL,NULL,85,XgYgim8dC,Lyda,Rushford,12,Zacharie,Andrewartha,94.89,radioterapia,"tumore al fegato",martedi,13:00:00,09:00:00,NULL
+2020,1,NULL,NULL,NULL,86,3Ob21ARm5,Clayborn,Downie,12,Zacharie,Andrewartha,52.15,riabilitazione,"frattura al braccio",martedi,13:00:00,09:00:00,NULL
+2020,2,NULL,NULL,NULL,87,fZ6Z3XV47,Cyrillus,Poacher,12,Zacharie,Andrewartha,558.60,chemioterapia,"tumore al pancreas",martedi,13:00:00,09:00:00,NULL
+2020,1,NULL,NULL,NULL,75,C9w2gMFnn,Margaretta,Rembrant,12,Zacharie,Andrewartha,60.00,"Fisioterapia e trattamento immunosoppressivo","Artrite reattiva",giovedi,13:00:00,09:00:00,NULL
+2020,1,NULL,NULL,NULL,84,Bzno2PKeV,Ernaline,Grinyer,12,Zacharie,Andrewartha,55.81,"Riabilitazione nerurolgica","sclerosi multipla",giovedi,13:00:00,09:00:00,NULL
+2020,4,NULL,NULL,NULL,85,XgYgim8dC,Lyda,Rushford,12,Zacharie,Andrewartha,94.89,radioterapia,"tumore al fegato",giovedi,13:00:00,09:00:00,NULL
+2020,2,NULL,NULL,NULL,85,XgYgim8dC,Lyda,Rushford,12,Zacharie,Andrewartha,94.89,radioterapia,"tumore al fegato",giovedi,13:00:00,09:00:00,NULL
+2020,1,NULL,NULL,NULL,86,3Ob21ARm5,Clayborn,Downie,12,Zacharie,Andrewartha,52.15,riabilitazione,"frattura al braccio",giovedi,13:00:00,09:00:00,NULL
+2020,2,NULL,NULL,NULL,87,fZ6Z3XV47,Cyrillus,Poacher,12,Zacharie,Andrewartha,558.60,chemioterapia,"tumore al pancreas",giovedi,13:00:00,09:00:00,NULL
+2024,5,NULL,NULL,NULL,190,0vBnK7L8Z,Kippy,Vere,16,Grantley,Nayshe,65.00,"Riposo e idratazione","Cefalea tensiva",martedi,17:00:00,13:00:00,NULL
+2024,5,NULL,NULL,NULL,190,0vBnK7L8Z,Kippy,Vere,16,Grantley,Nayshe,65.00,"Riposo e idratazione","Cefalea tensiva",domenica,17:00:00,13:00:00,NULL
+2024,4,NULL,NULL,NULL,104,T7g0S1l4a,Vick,Shoubridge,18,Ekaterina,Myton,600.90,"intervento chirurgico","ulcera perforata",martedi,19:00:00,15:00:00,NULL
+2024,5,NULL,NULL,NULL,111,ux5wZrg0T,Winfred,Ickovici,18,Ekaterina,Myton,85.00,"Fisioterapia e ultrasuoni","Periartrite della spalla",martedi,19:00:00,15:00:00,NULL
+2024,3,NULL,NULL,NULL,174,gG1or4yKe,Hestia,Schott,18,Ekaterina,Myton,85.00,"Riposo e ghiaccio",Tendinite,martedi,19:00:00,15:00:00,NULL
+2024,1,NULL,NULL,NULL,95,WVLyOYbA8,Wynn,Conigsby,20,Rianon,Allender,64.17,riabilitazione,"lesione muscolare",lunedi,21:30:00,17:30:00,NULL
+2024,5,NULL,NULL,NULL,103,H01HRx090,Leonidas,Somerled,20,Rianon,Allender,670.45,chirurgia,"cancro ai polmoni",lunedi,21:30:00,17:30:00,NULL
+2024,4,NULL,NULL,NULL,136,LoZc0ybsL,Danyelle,Southernwood,20,Rianon,Allender,165.00,"Miorilassanti e fisioterapia","Polimialgia reumatica",lunedi,21:30:00,17:30:00,NULL
+2024,4,NULL,NULL,NULL,181,cV23e5X2N,Nikos,Beisley,20,Rianon,Allender,80.00,"Riposo e ghiaccio","Fascite plantare",lunedi,21:30:00,17:30:00,NULL
+2024,1,NULL,NULL,NULL,95,WVLyOYbA8,Wynn,Conigsby,20,Rianon,Allender,64.17,riabilitazione,"lesione muscolare",martedi,21:00:00,17:00:00,NULL
+2024,5,NULL,NULL,NULL,103,H01HRx090,Leonidas,Somerled,20,Rianon,Allender,670.45,chirurgia,"cancro ai polmoni",martedi,21:00:00,17:00:00,NULL
+2024,4,NULL,NULL,NULL,136,LoZc0ybsL,Danyelle,Southernwood,20,Rianon,Allender,165.00,"Miorilassanti e fisioterapia","Polimialgia reumatica",martedi,21:00:00,17:00:00,NULL
+2024,4,NULL,NULL,NULL,181,cV23e5X2N,Nikos,Beisley,20,Rianon,Allender,80.00,"Riposo e ghiaccio","Fascite plantare",martedi,21:00:00,17:00:00,NULL
+2024,1,NULL,NULL,NULL,95,WVLyOYbA8,Wynn,Conigsby,20,Rianon,Allender,64.17,riabilitazione,"lesione muscolare",domenica,21:00:00,17:00:00,NULL
+2024,5,NULL,NULL,NULL,103,H01HRx090,Leonidas,Somerled,20,Rianon,Allender,670.45,chirurgia,"cancro ai polmoni",domenica,21:00:00,17:00:00,NULL
+2024,4,NULL,NULL,NULL,136,LoZc0ybsL,Danyelle,Southernwood,20,Rianon,Allender,165.00,"Miorilassanti e fisioterapia","Polimialgia reumatica",domenica,21:00:00,17:00:00,NULL
+2024,4,NULL,NULL,NULL,181,cV23e5X2N,Nikos,Beisley,20,Rianon,Allender,80.00,"Riposo e ghiaccio","Fascite plantare",domenica,21:00:00,17:00:00,NULL
+2024,4,NULL,NULL,NULL,100,D0T4k7lzR,Andriette,Swinley,24,Vinita,Pady,450.00,angioplastica,"infarto del miocardio",mercoledi,15:00:00,11:00:00,NULL
+2024,4,NULL,NULL,NULL,100,D0T4k7lzR,Andriette,Swinley,24,Vinita,Pady,450.00,angioplastica,"infarto del miocardio",giovedi,15:00:00,11:00:00,NULL
+2023,2,NULL,NULL,NULL,47,s0k9xAbQ0,Royce,Marsters,27,Darrick,MacGuffog,45.00,"Riposo e multivitaminico",Anemia,lunedi,18:00:00,14:00:00,NULL
+2023,2,NULL,NULL,NULL,47,s0k9xAbQ0,Royce,Marsters,27,Darrick,MacGuffog,45.00,"Riposo e multivitaminico",Anemia,martedi,13:00:00,09:00:00,NULL
+2023,2,NULL,NULL,NULL,47,s0k9xAbQ0,Royce,Marsters,27,Darrick,MacGuffog,45.00,"Riposo e multivitaminico",Anemia,mercoledi,18:00:00,14:00:00,NULL
+2023,2,NULL,NULL,NULL,47,s0k9xAbQ0,Royce,Marsters,27,Darrick,MacGuffog,45.00,"Riposo e multivitaminico",Anemia,venerdi,13:00:00,09:00:00,NULL
+2020,5,NULL,NULL,NULL,82,398PA4VP6,Cosimo,Feake,39,Olin,Kuhlmey,90.00,ECG,"Angina instabile",lunedi,16:00:00,12:00:00,NULL
+2020,2,NULL,NULL,NULL,82,398PA4VP6,Cosimo,Feake,39,Olin,Kuhlmey,90.00,ECG,"Angina instabile",lunedi,16:00:00,12:00:00,NULL
+2020,1,NULL,NULL,NULL,82,398PA4VP6,Cosimo,Feake,39,Olin,Kuhlmey,218.61,craniotomia,"Aneurisma celebrale",lunedi,16:00:00,12:00:00,NULL
+2020,2,NULL,NULL,NULL,83,0jFPml3by,Sheff,Knobell,39,Olin,Kuhlmey,196.91,radioterapia,meningioma,lunedi,16:00:00,12:00:00,NULL
+2020,5,NULL,NULL,NULL,82,398PA4VP6,Cosimo,Feake,39,Olin,Kuhlmey,90.00,ECG,"Angina instabile",giovedi,20:00:00,16:00:00,NULL
+2020,2,NULL,NULL,NULL,82,398PA4VP6,Cosimo,Feake,39,Olin,Kuhlmey,90.00,ECG,"Angina instabile",giovedi,20:00:00,16:00:00,NULL
+2020,1,NULL,NULL,NULL,82,398PA4VP6,Cosimo,Feake,39,Olin,Kuhlmey,218.61,craniotomia,"Aneurisma celebrale",giovedi,20:00:00,16:00:00,NULL
+2020,2,NULL,NULL,NULL,83,0jFPml3by,Sheff,Knobell,39,Olin,Kuhlmey,196.91,radioterapia,meningioma,giovedi,20:00:00,16:00:00,NULL
+2020,5,NULL,NULL,NULL,82,398PA4VP6,Cosimo,Feake,39,Olin,Kuhlmey,90.00,ECG,"Angina instabile",venerdi,20:30:00,16:30:00,NULL
+2020,2,NULL,NULL,NULL,82,398PA4VP6,Cosimo,Feake,39,Olin,Kuhlmey,90.00,ECG,"Angina instabile",venerdi,20:30:00,16:30:00,NULL
+2020,1,NULL,NULL,NULL,82,398PA4VP6,Cosimo,Feake,39,Olin,Kuhlmey,218.61,craniotomia,"Aneurisma celebrale",venerdi,20:30:00,16:30:00,NULL
+2020,2,NULL,NULL,NULL,83,0jFPml3by,Sheff,Knobell,39,Olin,Kuhlmey,196.91,radioterapia,meningioma,venerdi,20:30:00,16:30:00,NULL
+2020,5,NULL,NULL,NULL,82,398PA4VP6,Cosimo,Feake,39,Olin,Kuhlmey,90.00,ECG,"Angina instabile",sabato,16:00:00,12:00:00,NULL
+2020,2,NULL,NULL,NULL,82,398PA4VP6,Cosimo,Feake,39,Olin,Kuhlmey,90.00,ECG,"Angina instabile",sabato,16:00:00,12:00:00,NULL
+2020,1,NULL,NULL,NULL,82,398PA4VP6,Cosimo,Feake,39,Olin,Kuhlmey,218.61,craniotomia,"Aneurisma celebrale",sabato,16:00:00,12:00:00,NULL
+2020,2,NULL,NULL,NULL,83,0jFPml3by,Sheff,Knobell,39,Olin,Kuhlmey,196.91,radioterapia,meningioma,sabato,16:00:00,12:00:00,NULL
+2020,1,NULL,NULL,NULL,88,o49AdsXZJ,Jonis,Lowis,41,Deborah,Franz-Schoninger,217.58,"luce pulsata","acne tardiva",lunedi,14:00:00,10:00:00,NULL
+2023,1,NULL,NULL,NULL,90,49E6RjU9Q,Jacenta,Sichardt,41,Deborah,Franz-Schoninger,344.74,chemioterapia,"tumore del colon",lunedi,14:00:00,10:00:00,NULL
+2023,2,NULL,NULL,NULL,91,94wV98Nk5,Dennie,McGettigan,41,Deborah,Franz-Schoninger,479.99,chemioterapia,"tumore del colon",lunedi,14:00:00,10:00:00,NULL
+2023,1,NULL,NULL,NULL,92,NQj842Qgc,Donnie,Tassel,41,Deborah,Franz-Schoninger,100.22,radioterapia,"tumore alla tiroide",lunedi,14:00:00,10:00:00,NULL
+2020,1,NULL,NULL,NULL,88,o49AdsXZJ,Jonis,Lowis,41,Deborah,Franz-Schoninger,217.58,"luce pulsata","acne tardiva",venerdi,12:00:00,08:00:00,NULL
+2023,1,NULL,NULL,NULL,90,49E6RjU9Q,Jacenta,Sichardt,41,Deborah,Franz-Schoninger,344.74,chemioterapia,"tumore del colon",venerdi,12:00:00,08:00:00,NULL
+2023,2,NULL,NULL,NULL,91,94wV98Nk5,Dennie,McGettigan,41,Deborah,Franz-Schoninger,479.99,chemioterapia,"tumore del colon",venerdi,12:00:00,08:00:00,NULL
+2023,1,NULL,NULL,NULL,92,NQj842Qgc,Donnie,Tassel,41,Deborah,Franz-Schoninger,100.22,radioterapia,"tumore alla tiroide",venerdi,12:00:00,08:00:00,NULL
+2020,1,NULL,NULL,NULL,88,o49AdsXZJ,Jonis,Lowis,41,Deborah,Franz-Schoninger,217.58,"luce pulsata","acne tardiva",sabato,14:00:00,10:00:00,NULL
+2023,1,NULL,NULL,NULL,90,49E6RjU9Q,Jacenta,Sichardt,41,Deborah,Franz-Schoninger,344.74,chemioterapia,"tumore del colon",sabato,14:00:00,10:00:00,NULL
+2023,2,NULL,NULL,NULL,91,94wV98Nk5,Dennie,McGettigan,41,Deborah,Franz-Schoninger,479.99,chemioterapia,"tumore del colon",sabato,14:00:00,10:00:00,NULL
+2023,1,NULL,NULL,NULL,92,NQj842Qgc,Donnie,Tassel,41,Deborah,Franz-Schoninger,100.22,radioterapia,"tumore alla tiroide",sabato,14:00:00,10:00:00,NULL
+2020,1,NULL,NULL,NULL,88,o49AdsXZJ,Jonis,Lowis,41,Deborah,Franz-Schoninger,217.58,"luce pulsata","acne tardiva",domenica,12:30:00,08:30:00,NULL
+2023,1,NULL,NULL,NULL,90,49E6RjU9Q,Jacenta,Sichardt,41,Deborah,Franz-Schoninger,344.74,chemioterapia,"tumore del colon",domenica,12:30:00,08:30:00,NULL
+2023,2,NULL,NULL,NULL,91,94wV98Nk5,Dennie,McGettigan,41,Deborah,Franz-Schoninger,479.99,chemioterapia,"tumore del colon",domenica,12:30:00,08:30:00,NULL
+2023,1,NULL,NULL,NULL,92,NQj842Qgc,Donnie,Tassel,41,Deborah,Franz-Schoninger,100.22,radioterapia,"tumore alla tiroide",domenica,12:30:00,08:30:00,NULL
+2024,4,NULL,NULL,NULL,166,0hyC9M584,Simeon,Woolfoot,43,Ham,Cudbird,80.00,"Ossigenoterapia e riposo","Cardiopatia ischemica",martedi,14:30:00,10:30:00,NULL
+2024,4,NULL,NULL,NULL,166,0hyC9M584,Simeon,Woolfoot,43,Ham,Cudbird,80.00,"Ossigenoterapia e riposo","Cardiopatia ischemica",giovedi,14:00:00,10:00:00,NULL
+2024,4,NULL,NULL,NULL,166,0hyC9M584,Simeon,Woolfoot,43,Ham,Cudbird,80.00,"Ossigenoterapia e riposo","Cardiopatia ischemica",venerdi,14:00:00,10:00:00,NULL
+2024,4,NULL,NULL,NULL,102,0q2kBCK59,Barde,Loble,45,Cindi,Towe,198.30,"terapia fisica","artrite reumatoide",giovedi,16:30:00,12:30:00,NULL
+2024,4,NULL,NULL,NULL,131,FA1JZN41d,Cliff,Ivanikhin,45,Cindi,Towe,85.00,"Fisioterapia intensiva e infiltrazioni","Capsulite adesiva",giovedi,16:30:00,12:30:00,NULL
+2024,4,NULL,NULL,NULL,102,0q2kBCK59,Barde,Loble,45,Cindi,Towe,198.30,"terapia fisica","artrite reumatoide",venerdi,16:00:00,12:00:00,NULL
+2024,4,NULL,NULL,NULL,131,FA1JZN41d,Cliff,Ivanikhin,45,Cindi,Towe,85.00,"Fisioterapia intensiva e infiltrazioni","Capsulite adesiva",venerdi,16:00:00,12:00:00,NULL
+2024,4,NULL,NULL,NULL,121,uu4kM5G4o,Holt,Gaskoin,48,Randee,Lindenblatt,85.00,"Massaggio terapeutico e esercizi di stretching","Lombalgia cronica",lunedi,18:00:00,14:00:00,NULL
+2024,4,NULL,NULL,NULL,121,uu4kM5G4o,Holt,Gaskoin,48,Randee,Lindenblatt,85.00,"Massaggio terapeutico e esercizi di stretching","Lombalgia cronica",martedi,19:00:00,15:00:00,NULL
+2024,4,NULL,NULL,NULL,121,uu4kM5G4o,Holt,Gaskoin,48,Randee,Lindenblatt,85.00,"Massaggio terapeutico e esercizi di stretching","Lombalgia cronica",mercoledi,18:00:00,14:00:00,NULL
+2024,4,NULL,NULL,NULL,121,uu4kM5G4o,Holt,Gaskoin,48,Randee,Lindenblatt,85.00,"Massaggio terapeutico e esercizi di stretching","Lombalgia cronica",venerdi,19:00:00,15:00:00,NULL
+2024,4,NULL,NULL,NULL,121,uu4kM5G4o,Holt,Gaskoin,48,Randee,Lindenblatt,85.00,"Massaggio terapeutico e esercizi di stretching","Lombalgia cronica",domenica,19:30:00,15:30:00,NULL
+2022,4,NULL,NULL,NULL,27,MNg1sNDR8,Dallis,Hendriks,5,Burtie,Shakshaft,110.00,"ECG ","Angina pectoris",lunedi,16:00:00,12:00:00,NULL
+2022,3,NULL,NULL,NULL,28,gG1or4yKe,Hestia,Schott,5,Burtie,Shakshaft,45.00,"Riposo e multivitaminico",Anemia,lunedi,16:00:00,12:00:00,NULL
+2022,1,NULL,NULL,NULL,39,zYu9A99Su,Jesse,Shadrach,5,Burtie,Shakshaft,80.00,Beta-bloccanti,Tachicardia,lunedi,16:00:00,12:00:00,NULL
+2022,4,NULL,NULL,NULL,27,MNg1sNDR8,Dallis,Hendriks,5,Burtie,Shakshaft,110.00,"ECG ","Angina pectoris",venerdi,16:00:00,12:00:00,NULL
+2022,3,NULL,NULL,NULL,28,gG1or4yKe,Hestia,Schott,5,Burtie,Shakshaft,45.00,"Riposo e multivitaminico",Anemia,venerdi,16:00:00,12:00:00,NULL
+2022,1,NULL,NULL,NULL,39,zYu9A99Su,Jesse,Shadrach,5,Burtie,Shakshaft,80.00,Beta-bloccanti,Tachicardia,venerdi,16:00:00,12:00:00,NULL
+2023,2,NULL,NULL,NULL,93,6zxUperN6,Rebeca,Massinger,6,Mylo,Sturzaker,44.34,riablitazione,"frattura al ginocchio",lunedi,17:00:00,13:00:00,NULL
+2023,2,NULL,NULL,NULL,93,6zxUperN6,Rebeca,Massinger,6,Mylo,Sturzaker,44.34,riablitazione,"frattura al ginocchio",mercoledi,17:00:00,13:00:00,NULL
+2023,2,NULL,NULL,NULL,93,6zxUperN6,Rebeca,Massinger,6,Mylo,Sturzaker,44.34,riablitazione,"frattura al ginocchio",venerdi,17:00:00,13:00:00,NULL
+2023,2,NULL,NULL,NULL,93,6zxUperN6,Rebeca,Massinger,6,Mylo,Sturzaker,44.34,riablitazione,"frattura al ginocchio",sabato,17:00:00,13:00:00,NULL
+2023,5,NULL,NULL,NULL,46,Lg0X39Wg4,Ignaz,Ollivier,8,Ezra,Wildber,110.00,"ECG ","Angina pectoris",lunedi,19:00:00,15:00:00,NULL
+2023,5,NULL,NULL,NULL,49,6Qv62Wy97,Morgen,Rawes,8,Ezra,Wildber,320.75,appendicectomia,appendicite,lunedi,19:00:00,15:00:00,NULL
+2023,3,NULL,NULL,NULL,55,2moS7e4Y2,Kaela,Wreath,8,Ezra,Wildber,85.00,Fisioterapia,Borsite,lunedi,19:00:00,15:00:00,NULL
+2023,5,NULL,NULL,NULL,46,Lg0X39Wg4,Ignaz,Ollivier,8,Ezra,Wildber,110.00,"ECG ","Angina pectoris",giovedi,19:00:00,15:00:00,NULL
+2023,5,NULL,NULL,NULL,49,6Qv62Wy97,Morgen,Rawes,8,Ezra,Wildber,320.75,appendicectomia,appendicite,giovedi,19:00:00,15:00:00,NULL
+2023,3,NULL,NULL,NULL,55,2moS7e4Y2,Kaela,Wreath,8,Ezra,Wildber,85.00,Fisioterapia,Borsite,giovedi,19:00:00,15:00:00,NULL
+2023,2,NULL,NULL,NULL,60,f281k51N2,Poul,Saiens,9,Hadrian,Ivasechko,90.00,ECG,"Angina pectoris",lunedi,12:00:00,08:00:00,NULL
+2023,4,NULL,NULL,NULL,66,qc1M9LlN2,Travus,Flukes,9,Hadrian,Ivasechko,70.00,"Fisioterapia e terapia farmacologica",Spondiloartrite,lunedi,12:00:00,08:00:00,NULL
+2020,3,NULL,NULL,NULL,69,Qsyr28JfE,Gerri,Needs,9,Hadrian,Ivasechko,110.00,ECG,"Angina stabile",lunedi,12:00:00,08:00:00,NULL
+2020,5,NULL,NULL,NULL,70,4GjY0aOQe,Rita,Biggen,9,Hadrian,Ivasechko,45.00,"Riposo e integrazione vitaminica","Anemia da malattia cronica",lunedi,12:00:00,08:00:00,NULL
+2023,2,NULL,NULL,NULL,60,f281k51N2,Poul,Saiens,9,Hadrian,Ivasechko,90.00,ECG,"Angina pectoris",lunedi,20:00:00,16:00:00,NULL
+2023,4,NULL,NULL,NULL,66,qc1M9LlN2,Travus,Flukes,9,Hadrian,Ivasechko,70.00,"Fisioterapia e terapia farmacologica",Spondiloartrite,lunedi,20:00:00,16:00:00,NULL
+2020,3,NULL,NULL,NULL,69,Qsyr28JfE,Gerri,Needs,9,Hadrian,Ivasechko,110.00,ECG,"Angina stabile",lunedi,20:00:00,16:00:00,NULL
+2020,5,NULL,NULL,NULL,70,4GjY0aOQe,Rita,Biggen,9,Hadrian,Ivasechko,45.00,"Riposo e integrazione vitaminica","Anemia da malattia cronica",lunedi,20:00:00,16:00:00,NULL
+2023,2,NULL,NULL,NULL,60,f281k51N2,Poul,Saiens,9,Hadrian,Ivasechko,90.00,ECG,"Angina pectoris",giovedi,12:00:00,08:00:00,NULL
+2023,4,NULL,NULL,NULL,66,qc1M9LlN2,Travus,Flukes,9,Hadrian,Ivasechko,70.00,"Fisioterapia e terapia farmacologica",Spondiloartrite,giovedi,12:00:00,08:00:00,NULL
+2020,3,NULL,NULL,NULL,69,Qsyr28JfE,Gerri,Needs,9,Hadrian,Ivasechko,110.00,ECG,"Angina stabile",giovedi,12:00:00,08:00:00,NULL
+2020,5,NULL,NULL,NULL,70,4GjY0aOQe,Rita,Biggen,9,Hadrian,Ivasechko,45.00,"Riposo e integrazione vitaminica","Anemia da malattia cronica",giovedi,12:00:00,08:00:00,NULL
+2023,2,NULL,NULL,NULL,60,f281k51N2,Poul,Saiens,9,Hadrian,Ivasechko,90.00,ECG,"Angina pectoris",venerdi,20:00:00,16:00:00,NULL
+2023,4,NULL,NULL,NULL,66,qc1M9LlN2,Travus,Flukes,9,Hadrian,Ivasechko,70.00,"Fisioterapia e terapia farmacologica",Spondiloartrite,venerdi,20:00:00,16:00:00,NULL
+2020,3,NULL,NULL,NULL,69,Qsyr28JfE,Gerri,Needs,9,Hadrian,Ivasechko,110.00,ECG,"Angina stabile",venerdi,20:00:00,16:00:00,NULL
+2020,5,NULL,NULL,NULL,70,4GjY0aOQe,Rita,Biggen,9,Hadrian,Ivasechko,45.00,"Riposo e integrazione vitaminica","Anemia da malattia cronica",venerdi,20:00:00,16:00:00,NULL
+2021,4,F030,VIS007,Ossicodone,6,Ho00tSAlL,Sigismundo,Leroy,1,Brit,Dron,55.00,"Fisioterapia, analgesico",Lombalgia,lunedi,12:00:00,08:00:00,15
+2021,5,F011,VIS011,Amoxicillina,10,6DFDggepS,Martino,Oxbury,1,Brit,Dron,75.00,Antibiotico,Faringite,lunedi,12:00:00,08:00:00,15
+2021,3,F111,VIS012,elettroliti,11,Ypsl5i538,Arabele,Hovenden,1,Brit,Dron,65.00,"Reidratazione, probiotici",Gastroenterite,lunedi,12:00:00,08:00:00,15
+2021,4,F030,VIS007,Ossicodone,6,Ho00tSAlL,Sigismundo,Leroy,1,Brit,Dron,55.00,"Fisioterapia, analgesico",Lombalgia,venerdi,12:00:00,08:00:00,15
+2021,5,F011,VIS011,Amoxicillina,10,6DFDggepS,Martino,Oxbury,1,Brit,Dron,75.00,Antibiotico,Faringite,venerdi,12:00:00,08:00:00,15
+2021,3,F111,VIS012,elettroliti,11,Ypsl5i538,Arabele,Hovenden,1,Brit,Dron,65.00,"Reidratazione, probiotici",Gastroenterite,venerdi,12:00:00,08:00:00,15
+2020,1,F111,VIS078,elettroliti,79,NQj842Qgc,Donnie,Tassel,12,Zacharie,Andrewartha,60.00,"Antiemetici e reidratazione","Gastroenterite virale",martedi,13:00:00,09:00:00,15
+2020,1,F111,VIS078,elettroliti,79,NQj842Qgc,Donnie,Tassel,12,Zacharie,Andrewartha,60.00,"Antiemetici e reidratazione","Gastroenterite virale",giovedi,13:00:00,09:00:00,15
+2024,4,F011,VIS212,Amoxicillina,187,tsaT17Raw,Luce,Dufaur,16,Grantley,Nayshe,75.00,"Antibiotici e riposo",Pielonefrite,martedi,17:00:00,13:00:00,15
+2024,4,F011,VIS212,Amoxicillina,187,tsaT17Raw,Luce,Dufaur,16,Grantley,Nayshe,75.00,"Antibiotici e riposo",Pielonefrite,domenica,17:00:00,13:00:00,15
+2024,4,F011,VIS162,Amoxicillina,123,Bzno2PKeV,Ernaline,Grinyer,17,Deirdre,Kellie,135.00,"Antibiotici e dieta leggera","Infezione intestinale",lunedi,15:00:00,11:00:00,15
+2024,4,F011,VIS162,Amoxicillina,123,Bzno2PKeV,Ernaline,Grinyer,17,Deirdre,Kellie,135.00,"Antibiotici e dieta leggera","Infezione intestinale",martedi,18:00:00,14:00:00,15
+2024,4,F011,VIS162,Amoxicillina,123,Bzno2PKeV,Ernaline,Grinyer,17,Deirdre,Kellie,135.00,"Antibiotici e dieta leggera","Infezione intestinale",giovedi,15:00:00,11:00:00,15
+2024,3,F111,VIS118,elettroliti,115,238Fau85u,Odella,Chittock,25,Emory,Adamolli,65.00,"Reidratazione e dieta bland","Gastroenterite batterica",mercoledi,16:00:00,12:00:00,15
+2022,5,F030,VIS027,Ossicodone,26,0vBnK7L8Z,Kippy,Vere,3,Kenton,Puden,95.00,"Antibiotico e antistaminico","Dermatite da contatto",lunedi,14:00:00,10:00:00,15
+2022,5,F030,VIS027,Ossicodone,26,0vBnK7L8Z,Kippy,Vere,3,Kenton,Puden,95.00,"Antibiotico e antistaminico","Dermatite da contatto",domenica,14:00:00,10:00:00,15
+2024,3,F011,VIS199,Amoxicillina,165,s0k9xAbQ0,Royce,Marsters,45,Cindi,Towe,60.00,"Antibiotici e dieta liquida",Gastroenterite,giovedi,16:30:00,12:30:00,15
+2024,3,F011,VIS199,Amoxicillina,165,s0k9xAbQ0,Royce,Marsters,45,Cindi,Towe,60.00,"Antibiotici e dieta liquida",Gastroenterite,venerdi,16:00:00,12:00:00,15
+2024,3,F011,VIS156,Amoxicillina,107,1S8i59k6S,Morey,Ambage,53,Clyve,Lafond,150.00,"Antipiretici e antibiotici","Infezione batterica",venerdi,14:30:00,10:30:00,15
+2024,3,F011,VIS189,Amoxicillina,189,SL7khOSZ3,Lynelle,Rollitt,53,Clyve,Lafond,85.00,"Antibiotici e idratazione","Calcoli renali",venerdi,14:30:00,10:30:00,15
+2024,3,F011,VIS156,Amoxicillina,107,1S8i59k6S,Morey,Ambage,53,Clyve,Lafond,150.00,"Antipiretici e antibiotici","Infezione batterica",sabato,14:00:00,10:00:00,15
+2024,3,F011,VIS189,Amoxicillina,189,SL7khOSZ3,Lynelle,Rollitt,53,Clyve,Lafond,85.00,"Antibiotici e idratazione","Calcoli renali",sabato,14:00:00,10:00:00,15
+2024,4,F009,VIS185,Furosemide,150,FDmHc0uME,Gary,Spiller,24,Vinita,Pady,180.00,"Diuretici e riposo","Insufficienza cardiaca",mercoledi,15:00:00,11:00:00,20
+2024,4,F009,VIS185,Furosemide,150,FDmHc0uME,Gary,Spiller,24,Vinita,Pady,180.00,"Diuretici e riposo","Insufficienza cardiaca",giovedi,15:00:00,11:00:00,20
+2022,2,F031,VIS026,Tramadolo,25,x6tJHv1Lt,Cathlene,Dugald,3,Kenton,Puden,85.00,"Fisioterapia e analgesico",Lombalgia,lunedi,14:00:00,10:00:00,20
+2022,2,F031,VIS026,Tramadolo,25,x6tJHv1Lt,Cathlene,Dugald,3,Kenton,Puden,85.00,"Fisioterapia e analgesico",Lombalgia,domenica,14:00:00,10:00:00,20
+2021,5,F051,VIS006,Vertigoval,5,929v9j4ji,Benedicto,Ford,1,Brit,Dron,80.00,Antivertiginoso,"Vertigine posizionale benigna",lunedi,12:00:00,08:00:00,25
+2021,3,F007,VIS008,Loratadina,7,Dp43xG46l,Cindy,Hubball,1,Brit,Dron,90.00,"Antibiotico, antistaminico","Dermatite da contatto",lunedi,12:00:00,08:00:00,25
+2021,3,F012,VIS008,Azitromicina,7,Dp43xG46l,Cindy,Hubball,1,Brit,Dron,90.00,"Antibiotico, antistaminico","Dermatite da contatto",lunedi,12:00:00,08:00:00,25
+2021,1,F012,VIS009,Azitromicina,8,wN0HcDRA3,Bealle,Rootes,1,Brit,Dron,110.00,ECG,"Angina pectoris",lunedi,12:00:00,08:00:00,25
+2021,5,F051,VIS006,Vertigoval,5,929v9j4ji,Benedicto,Ford,1,Brit,Dron,80.00,Antivertiginoso,"Vertigine posizionale benigna",venerdi,12:00:00,08:00:00,25
+2021,3,F007,VIS008,Loratadina,7,Dp43xG46l,Cindy,Hubball,1,Brit,Dron,90.00,"Antibiotico, antistaminico","Dermatite da contatto",venerdi,12:00:00,08:00:00,25
+2021,3,F012,VIS008,Azitromicina,7,Dp43xG46l,Cindy,Hubball,1,Brit,Dron,90.00,"Antibiotico, antistaminico","Dermatite da contatto",venerdi,12:00:00,08:00:00,25
+2021,1,F012,VIS009,Azitromicina,8,wN0HcDRA3,Bealle,Rootes,1,Brit,Dron,110.00,ECG,"Angina pectoris",venerdi,12:00:00,08:00:00,25
+2022,4,F007,VIS038,Loratadina,37,G4qUYGXS7,Trescha,Leed,19,Fabiano,Prattington,60.00,Antiemetico,Gastroenterite,martedi,20:00:00,16:00:00,25
+2023,3,F012,VIS046,Azitromicina,45,hVtIs3ktU,Zeke,Devonald,19,Fabiano,Prattington,95.00,"Antibiotico e antistaminico","Dermatite da contatto",martedi,20:00:00,16:00:00,25
+2022,4,F007,VIS038,Loratadina,37,G4qUYGXS7,Trescha,Leed,19,Fabiano,Prattington,60.00,Antiemetico,Gastroenterite,mercoledi,19:00:00,15:00:00,25
+2023,3,F012,VIS046,Azitromicina,45,hVtIs3ktU,Zeke,Devonald,19,Fabiano,Prattington,95.00,"Antibiotico e antistaminico","Dermatite da contatto",mercoledi,19:00:00,15:00:00,25
+2022,4,F007,VIS038,Loratadina,37,G4qUYGXS7,Trescha,Leed,19,Fabiano,Prattington,60.00,Antiemetico,Gastroenterite,giovedi,19:00:00,15:00:00,25
+2023,3,F012,VIS046,Azitromicina,45,hVtIs3ktU,Zeke,Devonald,19,Fabiano,Prattington,95.00,"Antibiotico e antistaminico","Dermatite da contatto",giovedi,19:00:00,15:00:00,25
+2022,4,F007,VIS038,Loratadina,37,G4qUYGXS7,Trescha,Leed,19,Fabiano,Prattington,60.00,Antiemetico,Gastroenterite,venerdi,20:00:00,16:00:00,25
+2023,3,F012,VIS046,Azitromicina,45,hVtIs3ktU,Zeke,Devonald,19,Fabiano,Prattington,95.00,"Antibiotico e antistaminico","Dermatite da contatto",venerdi,20:00:00,16:00:00,25
+2023,5,F012,VIS049,Azitromicina,48,1BX7x46a1,Nady,Hentzeler,27,Darrick,MacGuffog,75.00,Antibiotico,Faringite,lunedi,18:00:00,14:00:00,25
+2023,1,F007,VIS057,Loratadina,58,31Z88mJ5t,Waldo,Quinton,27,Darrick,MacGuffog,75.00,Antistaminico,Dermatite,lunedi,18:00:00,14:00:00,25
+2023,5,F012,VIS049,Azitromicina,48,1BX7x46a1,Nady,Hentzeler,27,Darrick,MacGuffog,75.00,Antibiotico,Faringite,martedi,13:00:00,09:00:00,25
+2023,1,F007,VIS057,Loratadina,58,31Z88mJ5t,Waldo,Quinton,27,Darrick,MacGuffog,75.00,Antistaminico,Dermatite,martedi,13:00:00,09:00:00,25
+2023,5,F012,VIS049,Azitromicina,48,1BX7x46a1,Nady,Hentzeler,27,Darrick,MacGuffog,75.00,Antibiotico,Faringite,mercoledi,18:00:00,14:00:00,25
+2023,1,F007,VIS057,Loratadina,58,31Z88mJ5t,Waldo,Quinton,27,Darrick,MacGuffog,75.00,Antistaminico,Dermatite,mercoledi,18:00:00,14:00:00,25
+2023,5,F012,VIS049,Azitromicina,48,1BX7x46a1,Nady,Hentzeler,27,Darrick,MacGuffog,75.00,Antibiotico,Faringite,venerdi,13:00:00,09:00:00,25
+2023,1,F007,VIS057,Loratadina,58,31Z88mJ5t,Waldo,Quinton,27,Darrick,MacGuffog,75.00,Antistaminico,Dermatite,venerdi,13:00:00,09:00:00,25
+2022,5,F051,VIS025,Vertigoval,24,Wnr631Vk6,Daryn,Adin,3,Kenton,Puden,50.00,Antivertiginoso,"Vertigine posizionale benigna",lunedi,14:00:00,10:00:00,25
+2022,5,F007,VIS027,Loratadina,26,0vBnK7L8Z,Kippy,Vere,3,Kenton,Puden,95.00,"Antibiotico e antistaminico","Dermatite da contatto",lunedi,14:00:00,10:00:00,25
+2022,5,F051,VIS025,Vertigoval,24,Wnr631Vk6,Daryn,Adin,3,Kenton,Puden,50.00,Antivertiginoso,"Vertigine posizionale benigna",domenica,14:00:00,10:00:00,25
+2022,5,F007,VIS027,Loratadina,26,0vBnK7L8Z,Kippy,Vere,3,Kenton,Puden,95.00,"Antibiotico e antistaminico","Dermatite da contatto",domenica,14:00:00,10:00:00,25
+2024,4,F007,VIS165,Loratadina,130,v0vgZzNkG,Sophi,Valentin,43,Ham,Cudbird,125.00,"Antistaminici e creme topiche","Dermatite atopica",martedi,14:30:00,10:30:00,25
+2024,4,F007,VIS165,Loratadina,130,v0vgZzNkG,Sophi,Valentin,43,Ham,Cudbird,125.00,"Antistaminici e creme topiche","Dermatite atopica",giovedi,14:00:00,10:00:00,25
+2024,4,F007,VIS165,Loratadina,130,v0vgZzNkG,Sophi,Valentin,43,Ham,Cudbird,125.00,"Antistaminici e creme topiche","Dermatite atopica",venerdi,14:00:00,10:00:00,25
+2022,1,F012,VIS030,Azitromicina,29,f74Qe0CX1,Averill,Jouaneton,5,Burtie,Shakshaft,75.00,Antibiotico,Faringite,lunedi,16:00:00,12:00:00,25
+2022,4,F035,VIS034,Venlafaxina,33,Ki0jO3i4y,Sherri,Bever,5,Burtie,Shakshaft,60.00,Antinfiammatorio,Artrite,lunedi,16:00:00,12:00:00,25
+2022,1,F012,VIS030,Azitromicina,29,f74Qe0CX1,Averill,Jouaneton,5,Burtie,Shakshaft,75.00,Antibiotico,Faringite,venerdi,16:00:00,12:00:00,25
+2022,4,F035,VIS034,Venlafaxina,33,Ki0jO3i4y,Sherri,Bever,5,Burtie,Shakshaft,60.00,Antinfiammatorio,Artrite,venerdi,16:00:00,12:00:00,25
+2024,5,F012,VIS122,Azitromicina,122,981x0Lavl,Gratia,Ostrich,53,Clyve,Lafond,95.00,"Antibiotico e crema idratante","Dermatite batterica",venerdi,14:30:00,10:30:00,25
+2024,5,F012,VIS197,Azitromicina,162,0jFPml3by,Sheff,Knobell,53,Clyve,Lafond,95.00,"Antibiotici e riposo",Polmonite,venerdi,14:30:00,10:30:00,25
+2024,5,F007,VIS213,Loratadina,188,FA1JZN41d,Cliff,Ivanikhin,53,Clyve,Lafond,90.00,"Antistaminici e crema lenitiva",Eczema,venerdi,14:30:00,10:30:00,25
+2024,5,F012,VIS122,Azitromicina,122,981x0Lavl,Gratia,Ostrich,53,Clyve,Lafond,95.00,"Antibiotico e crema idratante","Dermatite batterica",sabato,14:00:00,10:00:00,25
+2024,5,F012,VIS197,Azitromicina,162,0jFPml3by,Sheff,Knobell,53,Clyve,Lafond,95.00,"Antibiotici e riposo",Polmonite,sabato,14:00:00,10:00:00,25
+2024,5,F007,VIS213,Loratadina,188,FA1JZN41d,Cliff,Ivanikhin,53,Clyve,Lafond,90.00,"Antistaminici e crema lenitiva",Eczema,sabato,14:00:00,10:00:00,25
+2021,3,F007,VIS003,Loratadina,2,4VeGHs995,Fan,Danne,6,Mylo,Sturzaker,60.00,Antistaminico,"Reazione allergica",lunedi,17:00:00,13:00:00,25
+2021,3,F007,VIS003,Loratadina,2,4VeGHs995,Fan,Danne,6,Mylo,Sturzaker,60.00,Antistaminico,"Reazione allergica",mercoledi,17:00:00,13:00:00,25
+2021,3,F007,VIS003,Loratadina,2,4VeGHs995,Fan,Danne,6,Mylo,Sturzaker,60.00,Antistaminico,"Reazione allergica",venerdi,17:00:00,13:00:00,25
+2021,3,F007,VIS003,Loratadina,2,4VeGHs995,Fan,Danne,6,Mylo,Sturzaker,60.00,Antistaminico,"Reazione allergica",sabato,17:00:00,13:00:00,25
+2023,1,F051,VIS044,Vertigoval,43,JiPNq2n5h,Rosalind,Barstock,8,Ezra,Wildber,50.00,Antivertiginoso,"Vertigine posizionale benigna",lunedi,19:00:00,15:00:00,25
+2023,1,F051,VIS044,Vertigoval,43,JiPNq2n5h,Rosalind,Barstock,8,Ezra,Wildber,50.00,Antivertiginoso,"Vertigine posizionale benigna",giovedi,19:00:00,15:00:00,25
+2023,1,F051,VIS062,Vertigoval,63,wuH8eFUV7,Lowe,Viall,9,Hadrian,Ivasechko,50.00,Antivertiginoso,"Vertigine posizionale benigna",lunedi,12:00:00,08:00:00,25
+2023,2,F007,VIS064,Loratadina,65,94wV98Nk5,Dennie,McGettigan,9,Hadrian,Ivasechko,95.00,"Antibiotico e antistaminico","Dermatite da contatto",lunedi,12:00:00,08:00:00,25
+2023,2,F012,VIS064,Azitromicina,65,94wV98Nk5,Dennie,McGettigan,9,Hadrian,Ivasechko,95.00,"Antibiotico e antistaminico","Dermatite da contatto",lunedi,12:00:00,08:00:00,25
+2020,2,F012,VIS070,Azitromicina,71,oXqj3PfX9,Constantine,Clappison,9,Hadrian,Ivasechko,75.00,"Antibiotico e antinfiammatorio","Faringite streptococcica",lunedi,12:00:00,08:00:00,25
+2023,1,F051,VIS062,Vertigoval,63,wuH8eFUV7,Lowe,Viall,9,Hadrian,Ivasechko,50.00,Antivertiginoso,"Vertigine posizionale benigna",lunedi,20:00:00,16:00:00,25
+2023,2,F007,VIS064,Loratadina,65,94wV98Nk5,Dennie,McGettigan,9,Hadrian,Ivasechko,95.00,"Antibiotico e antistaminico","Dermatite da contatto",lunedi,20:00:00,16:00:00,25
+2023,2,F012,VIS064,Azitromicina,65,94wV98Nk5,Dennie,McGettigan,9,Hadrian,Ivasechko,95.00,"Antibiotico e antistaminico","Dermatite da contatto",lunedi,20:00:00,16:00:00,25
+2020,2,F012,VIS070,Azitromicina,71,oXqj3PfX9,Constantine,Clappison,9,Hadrian,Ivasechko,75.00,"Antibiotico e antinfiammatorio","Faringite streptococcica",lunedi,20:00:00,16:00:00,25
+2023,1,F051,VIS062,Vertigoval,63,wuH8eFUV7,Lowe,Viall,9,Hadrian,Ivasechko,50.00,Antivertiginoso,"Vertigine posizionale benigna",giovedi,12:00:00,08:00:00,25
+2023,2,F007,VIS064,Loratadina,65,94wV98Nk5,Dennie,McGettigan,9,Hadrian,Ivasechko,95.00,"Antibiotico e antistaminico","Dermatite da contatto",giovedi,12:00:00,08:00:00,25
+2023,2,F012,VIS064,Azitromicina,65,94wV98Nk5,Dennie,McGettigan,9,Hadrian,Ivasechko,95.00,"Antibiotico e antistaminico","Dermatite da contatto",giovedi,12:00:00,08:00:00,25
+2020,2,F012,VIS070,Azitromicina,71,oXqj3PfX9,Constantine,Clappison,9,Hadrian,Ivasechko,75.00,"Antibiotico e antinfiammatorio","Faringite streptococcica",giovedi,12:00:00,08:00:00,25
+2023,1,F051,VIS062,Vertigoval,63,wuH8eFUV7,Lowe,Viall,9,Hadrian,Ivasechko,50.00,Antivertiginoso,"Vertigine posizionale benigna",venerdi,20:00:00,16:00:00,25
+2023,2,F007,VIS064,Loratadina,65,94wV98Nk5,Dennie,McGettigan,9,Hadrian,Ivasechko,95.00,"Antibiotico e antistaminico","Dermatite da contatto",venerdi,20:00:00,16:00:00,25
+2023,2,F012,VIS064,Azitromicina,65,94wV98Nk5,Dennie,McGettigan,9,Hadrian,Ivasechko,95.00,"Antibiotico e antistaminico","Dermatite da contatto",venerdi,20:00:00,16:00:00,25
+2020,2,F012,VIS070,Azitromicina,71,oXqj3PfX9,Constantine,Clappison,9,Hadrian,Ivasechko,75.00,"Antibiotico e antinfiammatorio","Faringite streptococcica",venerdi,20:00:00,16:00:00,25
+2021,2,F024,VIS013,Atenololo,12,QbB5PZTU8,Purcell,Jopke,1,Brit,Dron,85.00,Beta-bloccanti,Tachicardia,lunedi,12:00:00,08:00:00,40
+2021,2,F024,VIS013,Atenololo,12,QbB5PZTU8,Purcell,Jopke,1,Brit,Dron,85.00,Beta-bloccanti,Tachicardia,venerdi,12:00:00,08:00:00,40
+2021,5,F024,VIS021,Atenololo,20,929v9j4ji,Benedicto,Ford,10,Odetta,Housam,80.00,Beta-bloccanti,Tachicardia,lunedi,21:00:00,17:00:00,40
+2021,5,F024,VIS021,Atenololo,20,929v9j4ji,Benedicto,Ford,10,Odetta,Housam,80.00,Beta-bloccanti,Tachicardia,mercoledi,21:00:00,17:00:00,40
+2020,2,F050,VIS079,Levocetirizina,80,fO4vE338P,Keefe,Linck,12,Zacharie,Andrewartha,75.00,"Antistaminici e trattamenti topici","Dermatite da contatto allergica",martedi,13:00:00,09:00:00,40
+2020,2,F050,VIS079,Levocetirizina,80,fO4vE338P,Keefe,Linck,12,Zacharie,Andrewartha,75.00,"Antistaminici e trattamenti topici","Dermatite da contatto allergica",giovedi,13:00:00,09:00:00,40
+2024,3,F008,VIS192,Cetirizina,192,1S8i59k6S,Morey,Ambage,16,Grantley,Nayshe,80.00,"Antistaminici e crema lenitiva",Eczema,martedi,17:00:00,13:00:00,40
+2024,3,F008,VIS192,Cetirizina,192,1S8i59k6S,Morey,Ambage,16,Grantley,Nayshe,80.00,"Antistaminici e crema lenitiva",Eczema,domenica,17:00:00,13:00:00,40
+2023,3,F050,VIS046,Levocetirizina,45,hVtIs3ktU,Zeke,Devonald,19,Fabiano,Prattington,95.00,"Antibiotico e antistaminico","Dermatite da contatto",martedi,20:00:00,16:00:00,40
+2023,3,F050,VIS046,Levocetirizina,45,hVtIs3ktU,Zeke,Devonald,19,Fabiano,Prattington,95.00,"Antibiotico e antistaminico","Dermatite da contatto",mercoledi,19:00:00,15:00:00,40
+2023,3,F050,VIS046,Levocetirizina,45,hVtIs3ktU,Zeke,Devonald,19,Fabiano,Prattington,95.00,"Antibiotico e antistaminico","Dermatite da contatto",giovedi,19:00:00,15:00:00,40
+2023,3,F050,VIS046,Levocetirizina,45,hVtIs3ktU,Zeke,Devonald,19,Fabiano,Prattington,95.00,"Antibiotico e antistaminico","Dermatite da contatto",venerdi,20:00:00,16:00:00,40
+2024,4,F050,VIS115,Levocetirizina,112,GI29Sxp0v,Antonia,Malarkey,20,Rianon,Allender,75.00,"Crema antistaminica e riposo","Dermatite allergica",lunedi,21:30:00,17:30:00,40
+2024,4,F050,VIS115,Levocetirizina,112,GI29Sxp0v,Antonia,Malarkey,20,Rianon,Allender,75.00,"Crema antistaminica e riposo","Dermatite allergica",martedi,21:00:00,17:00:00,40
+2024,4,F050,VIS115,Levocetirizina,112,GI29Sxp0v,Antonia,Malarkey,20,Rianon,Allender,75.00,"Crema antistaminica e riposo","Dermatite allergica",domenica,21:00:00,17:00:00,40
+2024,3,F008,VIS134,Cetirizina,134,x6tJHv1Lt,Cathlene,Dugald,48,Randee,Lindenblatt,75.00,"Antistaminici e trattamenti locali","Dermatite da contatto",lunedi,18:00:00,14:00:00,40
+2024,3,F008,VIS134,Cetirizina,134,x6tJHv1Lt,Cathlene,Dugald,48,Randee,Lindenblatt,75.00,"Antistaminici e trattamenti locali","Dermatite da contatto",martedi,19:00:00,15:00:00,40
+2024,3,F008,VIS134,Cetirizina,134,x6tJHv1Lt,Cathlene,Dugald,48,Randee,Lindenblatt,75.00,"Antistaminici e trattamenti locali","Dermatite da contatto",mercoledi,18:00:00,14:00:00,40
+2024,3,F008,VIS134,Cetirizina,134,x6tJHv1Lt,Cathlene,Dugald,48,Randee,Lindenblatt,75.00,"Antistaminici e trattamenti locali","Dermatite da contatto",venerdi,19:00:00,15:00:00,40
+2024,3,F008,VIS134,Cetirizina,134,x6tJHv1Lt,Cathlene,Dugald,48,Randee,Lindenblatt,75.00,"Antistaminici e trattamenti locali","Dermatite da contatto",domenica,19:30:00,15:30:00,40
+2022,3,F024,VIS032,Atenololo,31,A2E18699w,Carita,Bretherton,5,Burtie,Shakshaft,85.00,Beta-bloccanti,Tachicardia,lunedi,16:00:00,12:00:00,40
+2022,3,F024,VIS039,Atenololo,38,Q59V1fg6M,Pascal,Tompion,5,Burtie,Shakshaft,75.00,Antistaminico,Dermatite,lunedi,16:00:00,12:00:00,40
+2022,3,F024,VIS032,Atenololo,31,A2E18699w,Carita,Bretherton,5,Burtie,Shakshaft,85.00,Beta-bloccanti,Tachicardia,venerdi,16:00:00,12:00:00,40
+2022,3,F024,VIS039,Atenololo,38,Q59V1fg6M,Pascal,Tompion,5,Burtie,Shakshaft,75.00,Antistaminico,Dermatite,venerdi,16:00:00,12:00:00,40
+2023,4,F024,VIS050,Atenololo,51,02quXx7q9,Emilio,Egre,8,Ezra,Wildber,85.00,Beta-bloccanti,Tachicardia,lunedi,19:00:00,15:00:00,40
+2023,4,F024,VIS050,Atenololo,51,02quXx7q9,Emilio,Egre,8,Ezra,Wildber,85.00,Beta-bloccanti,Tachicardia,giovedi,19:00:00,15:00:00,40
+2023,5,F024,VIS058,Atenololo,59,LoZc0ybsL,Danyelle,Southernwood,9,Hadrian,Ivasechko,80.00,Beta-bloccanti,Tachicardia,lunedi,12:00:00,08:00:00,40
+2023,5,F024,VIS058,Atenololo,59,LoZc0ybsL,Danyelle,Southernwood,9,Hadrian,Ivasechko,80.00,Beta-bloccanti,Tachicardia,lunedi,20:00:00,16:00:00,40
+2023,5,F024,VIS058,Atenololo,59,LoZc0ybsL,Danyelle,Southernwood,9,Hadrian,Ivasechko,80.00,Beta-bloccanti,Tachicardia,giovedi,12:00:00,08:00:00,40
+2023,5,F024,VIS058,Atenololo,59,LoZc0ybsL,Danyelle,Southernwood,9,Hadrian,Ivasechko,80.00,Beta-bloccanti,Tachicardia,venerdi,20:00:00,16:00:00,40
+2021,1,F002,VIS015,Ibuprofene,14,GgbV3uKD6,Halsey,Chittem,10,Odetta,Housam,60.00,Antinfiammatorio,Artrite,lunedi,21:00:00,17:00:00,50
+2021,1,F002,VIS015,Ibuprofene,14,GgbV3uKD6,Halsey,Chittem,10,Odetta,Housam,60.00,Antinfiammatorio,Artrite,mercoledi,21:00:00,17:00:00,50
+2024,4,F002,VIS191,Ibuprofene,191,MhFN4211z,Demetria,Tuff,16,Grantley,Nayshe,75.00,"Antinfiammatori e riposo",Epicondilite,martedi,17:00:00,13:00:00,50
+2024,4,F002,VIS191,Ibuprofene,191,MhFN4211z,Demetria,Tuff,16,Grantley,Nayshe,75.00,"Antinfiammatori e riposo",Epicondilite,domenica,17:00:00,13:00:00,50
+2024,3,F002,VIS175,Ibuprofene,140,SL7khOSZ3,Lynelle,Rollitt,17,Deirdre,Kellie,155.00,"Antinfiammatori e riposo",Fibromialgia,lunedi,15:00:00,11:00:00,50
+2024,3,F002,VIS175,Ibuprofene,140,SL7khOSZ3,Lynelle,Rollitt,17,Deirdre,Kellie,155.00,"Antinfiammatori e riposo",Fibromialgia,martedi,18:00:00,14:00:00,50
+2024,3,F002,VIS175,Ibuprofene,140,SL7khOSZ3,Lynelle,Rollitt,17,Deirdre,Kellie,155.00,"Antinfiammatori e riposo",Fibromialgia,giovedi,15:00:00,11:00:00,50
+2024,2,F002,VIS163,Ibuprofene,127,Dp43xG46l,Cindy,Hubball,18,Ekaterina,Myton,150.00,"Antinfiammatori e riposo",Fibromialgia,martedi,19:00:00,15:00:00,50
+2022,2,F002,VIS033,Ibuprofene,32,cV23e5X2N,Nikos,Beisley,19,Fabiano,Prattington,95.00,Antiemicranico,Emicrania,martedi,20:00:00,16:00:00,50
+2022,2,F002,VIS033,Ibuprofene,32,cV23e5X2N,Nikos,Beisley,19,Fabiano,Prattington,95.00,Antiemicranico,Emicrania,mercoledi,19:00:00,15:00:00,50
+2022,2,F002,VIS033,Ibuprofene,32,cV23e5X2N,Nikos,Beisley,19,Fabiano,Prattington,95.00,Antiemicranico,Emicrania,giovedi,19:00:00,15:00:00,50
+2022,2,F002,VIS033,Ibuprofene,32,cV23e5X2N,Nikos,Beisley,19,Fabiano,Prattington,95.00,Antiemicranico,Emicrania,venerdi,20:00:00,16:00:00,50
+2024,4,F002,VIS210,Ibuprofene,183,Bzno2PKeV,Ernaline,Grinyer,20,Rianon,Allender,95.00,"Antinfiammatori e fisioterapia",Periartrite,lunedi,21:30:00,17:30:00,50
+2024,4,F002,VIS210,Ibuprofene,183,Bzno2PKeV,Ernaline,Grinyer,20,Rianon,Allender,95.00,"Antinfiammatori e fisioterapia",Periartrite,martedi,21:00:00,17:00:00,50
+2024,4,F002,VIS210,Ibuprofene,183,Bzno2PKeV,Ernaline,Grinyer,20,Rianon,Allender,95.00,"Antinfiammatori e fisioterapia",Periartrite,domenica,21:00:00,17:00:00,50
+2024,4,F002,VIS198,Ibuprofene,164,ghEFLt7ep,Maddi,Osgerby,24,Vinita,Pady,85.00,"Antinfiammatori e riposo","Artrite reumatoide",mercoledi,15:00:00,11:00:00,50
+2024,5,F002,VIS202,Ibuprofene,169,NQj842Qgc,Donnie,Tassel,24,Vinita,Pady,75.00,"Antinfiammatori e fisioterapia","Sindrome del tunnel carpale",mercoledi,15:00:00,11:00:00,50
+2024,4,F002,VIS198,Ibuprofene,164,ghEFLt7ep,Maddi,Osgerby,24,Vinita,Pady,85.00,"Antinfiammatori e riposo","Artrite reumatoide",giovedi,15:00:00,11:00:00,50
+2024,5,F002,VIS202,Ibuprofene,169,NQj842Qgc,Donnie,Tassel,24,Vinita,Pady,75.00,"Antinfiammatori e fisioterapia","Sindrome del tunnel carpale",giovedi,15:00:00,11:00:00,50
+2023,3,F002,VIS061,Ibuprofene,62,8a34f6Pd0,Wye,Akrigg,27,Darrick,MacGuffog,70.00,Antinfiammatorio,Artrite,lunedi,18:00:00,14:00:00,50
+2023,3,F002,VIS061,Ibuprofene,62,8a34f6Pd0,Wye,Akrigg,27,Darrick,MacGuffog,70.00,Antinfiammatorio,Artrite,martedi,13:00:00,09:00:00,50
+2023,3,F002,VIS061,Ibuprofene,62,8a34f6Pd0,Wye,Akrigg,27,Darrick,MacGuffog,70.00,Antinfiammatorio,Artrite,mercoledi,18:00:00,14:00:00,50
+2023,3,F002,VIS061,Ibuprofene,62,8a34f6Pd0,Wye,Akrigg,27,Darrick,MacGuffog,70.00,Antinfiammatorio,Artrite,venerdi,13:00:00,09:00:00,50
+2022,1,F002,VIS024,Ibuprofene,23,H334grB7H,Trula,Lascelles,3,Kenton,Puden,70.00,Antinfiammatorio,Artrite,lunedi,14:00:00,10:00:00,50
+2022,1,F002,VIS024,Ibuprofene,23,H334grB7H,Trula,Lascelles,3,Kenton,Puden,70.00,Antinfiammatorio,Artrite,domenica,14:00:00,10:00:00,50
+2024,5,F002,VIS205,Ibuprofene,176,32r94upM9,Elmer,Archambault,43,Ham,Cudbird,90.00,"Antinfiammatori e riposo",Meniscopatia,martedi,14:30:00,10:30:00,50
+2024,5,F002,VIS205,Ibuprofene,176,32r94upM9,Elmer,Archambault,43,Ham,Cudbird,90.00,"Antinfiammatori e riposo",Meniscopatia,giovedi,14:00:00,10:00:00,50
+2024,5,F002,VIS205,Ibuprofene,176,32r94upM9,Elmer,Archambault,43,Ham,Cudbird,90.00,"Antinfiammatori e riposo",Meniscopatia,venerdi,14:00:00,10:00:00,50
+2024,4,F002,VIS195,Ibuprofene,155,6Qv62Wy97,Morgen,Rawes,45,Cindi,Towe,70.00,"Antinfiammatori e fisioterapia",Cervicalgia,giovedi,16:30:00,12:30:00,50
+2024,4,F002,VIS195,Ibuprofene,155,6Qv62Wy97,Morgen,Rawes,45,Cindi,Towe,70.00,"Antinfiammatori e fisioterapia",Cervicalgia,venerdi,16:00:00,12:00:00,50
+2023,4,F002,VIS043,Ibuprofene,42,d226J3KfK,Leighton,Tarpey,8,Ezra,Wildber,70.00,Antinfiammatorio,Artrite,lunedi,19:00:00,15:00:00,50
+2023,3,F002,VIS051,Ibuprofene,52,qc1M9LlN2,Travus,Flukes,8,Ezra,Wildber,95.00,Antiemicranico,Emicrania,lunedi,19:00:00,15:00:00,50
+2023,4,F002,VIS043,Ibuprofene,42,d226J3KfK,Leighton,Tarpey,8,Ezra,Wildber,70.00,Antinfiammatorio,Artrite,giovedi,19:00:00,15:00:00,50
+2023,3,F002,VIS051,Ibuprofene,52,qc1M9LlN2,Travus,Flukes,8,Ezra,Wildber,95.00,Antiemicranico,Emicrania,giovedi,19:00:00,15:00:00,50
+2020,2,F002,VIS070,Ibuprofene,71,oXqj3PfX9,Constantine,Clappison,9,Hadrian,Ivasechko,75.00,"Antibiotico e antinfiammatorio","Faringite streptococcica",lunedi,12:00:00,08:00:00,50
+2020,2,F002,VIS070,Ibuprofene,71,oXqj3PfX9,Constantine,Clappison,9,Hadrian,Ivasechko,75.00,"Antibiotico e antinfiammatorio","Faringite streptococcica",lunedi,20:00:00,16:00:00,50
+2020,2,F002,VIS070,Ibuprofene,71,oXqj3PfX9,Constantine,Clappison,9,Hadrian,Ivasechko,75.00,"Antibiotico e antinfiammatorio","Faringite streptococcica",giovedi,12:00:00,08:00:00,50
+2020,2,F002,VIS070,Ibuprofene,71,oXqj3PfX9,Constantine,Clappison,9,Hadrian,Ivasechko,75.00,"Antibiotico e antinfiammatorio","Faringite streptococcica",venerdi,20:00:00,16:00:00,50
+2020,1,F048,VIS076,Budesonide,77,Q59V1fg6M,Pascal,Tompion,31,Pattin,Windsor,85.00,"Fisioterapia e iniezioni corticosteroidee","Capsulite adesiva della spalla",lunedi,12:00:00,08:00:00,55
+2020,1,F048,VIS076,Budesonide,77,Q59V1fg6M,Pascal,Tompion,31,Pattin,Windsor,85.00,"Fisioterapia e iniezioni corticosteroidee","Capsulite adesiva della spalla",giovedi,12:00:00,08:00:00,55
+2020,1,F048,VIS076,Budesonide,77,Q59V1fg6M,Pascal,Tompion,31,Pattin,Windsor,85.00,"Fisioterapia e iniezioni corticosteroidee","Capsulite adesiva della spalla",giovedi,12:30:00,08:30:00,55
+2020,1,F025,VIS080,Metoprololo,81,LjTfY5P24,Torre,Oseland,39,Olin,Kuhlmey,80.00,"Beta-bloccanti e gestione dello stress","Tachicardia sopraventricolare parossistica",lunedi,16:00:00,12:00:00,60
+2020,1,F025,VIS080,Metoprololo,81,LjTfY5P24,Torre,Oseland,39,Olin,Kuhlmey,80.00,"Beta-bloccanti e gestione dello stress","Tachicardia sopraventricolare parossistica",giovedi,20:00:00,16:00:00,60
+2020,1,F025,VIS080,Metoprololo,81,LjTfY5P24,Torre,Oseland,39,Olin,Kuhlmey,80.00,"Beta-bloccanti e gestione dello stress","Tachicardia sopraventricolare parossistica",venerdi,20:30:00,16:30:00,60
+2020,1,F025,VIS080,Metoprololo,81,LjTfY5P24,Torre,Oseland,39,Olin,Kuhlmey,80.00,"Beta-bloccanti e gestione dello stress","Tachicardia sopraventricolare parossistica",sabato,16:00:00,12:00:00,60
+2024,5,F003,VIS181,"Acido acetilsalicilico",146,fO4vE338P,Keefe,Linck,18,Ekaterina,Myton,165.00,"Antinfiammatori e riposo",Influenza,martedi,19:00:00,15:00:00,75
+2024,5,F003,VIS196,"Acido acetilsalicilico",161,vuIIK5302,Kitty,Giacoppo,20,Rianon,Allender,65.00,"Analgesici e fisioterapia",Lombalgia,lunedi,21:30:00,17:30:00,75
+2024,5,F003,VIS196,"Acido acetilsalicilico",161,vuIIK5302,Kitty,Giacoppo,20,Rianon,Allender,65.00,"Analgesici e fisioterapia",Lombalgia,martedi,21:00:00,17:00:00,75
+2024,5,F003,VIS196,"Acido acetilsalicilico",161,vuIIK5302,Kitty,Giacoppo,20,Rianon,Allender,65.00,"Analgesici e fisioterapia",Lombalgia,domenica,21:00:00,17:00:00,75
+2024,5,F003,VIS209,"Acido acetilsalicilico",182,0CxyR0K4l,Umberto,Gammon,45,Cindi,Towe,55.00,"Analgesici e idratazione",Emicrania,giovedi,16:30:00,12:30:00,75
+2024,5,F003,VIS209,"Acido acetilsalicilico",182,0CxyR0K4l,Umberto,Gammon,45,Cindi,Towe,55.00,"Analgesici e idratazione",Emicrania,venerdi,16:00:00,12:00:00,75
+2021,1,F021,VIS020,Levothyroxine,19,O2mXy68Sc,Kirsten,Fosberry,10,Odetta,Housam,75.00,Antistaminico,Dermatite,lunedi,21:00:00,17:00:00,90
+2021,1,F021,VIS020,Levothyroxine,19,O2mXy68Sc,Kirsten,Fosberry,10,Odetta,Housam,75.00,Antistaminico,Dermatite,mercoledi,21:00:00,17:00:00,90
+2024,4,F001,VIS206,Paracetamolo,178,2moS7e4Y2,Kaela,Wreath,16,Grantley,Nayshe,70.00,"Antivirali e idratazione",Rosolia,martedi,17:00:00,13:00:00,100
+2024,4,F001,VIS206,Paracetamolo,178,2moS7e4Y2,Kaela,Wreath,16,Grantley,Nayshe,70.00,"Antivirali e idratazione",Rosolia,domenica,17:00:00,13:00:00,100
+2023,4,F001,VIS045,Paracetamolo,44,859jt3J4S,Thatcher,Farady,19,Fabiano,Prattington,85.00,"Fisioterapia e analgesico",Lombalgia,martedi,20:00:00,16:00:00,100
+2023,4,F001,VIS045,Paracetamolo,44,859jt3J4S,Thatcher,Farady,19,Fabiano,Prattington,85.00,"Fisioterapia e analgesico",Lombalgia,mercoledi,19:00:00,15:00:00,100
+2023,4,F001,VIS045,Paracetamolo,44,859jt3J4S,Thatcher,Farady,19,Fabiano,Prattington,85.00,"Fisioterapia e analgesico",Lombalgia,giovedi,19:00:00,15:00:00,100
+2023,4,F001,VIS045,Paracetamolo,44,859jt3J4S,Thatcher,Farady,19,Fabiano,Prattington,85.00,"Fisioterapia e analgesico",Lombalgia,venerdi,20:00:00,16:00:00,100
+2024,5,F001,VIS164,Paracetamolo,129,rawD87W3m,Graham,Chance,20,Rianon,Allender,170.00,"Fisioterapia e analgesici","Ernia del disco",lunedi,21:30:00,17:30:00,100
+2024,5,F001,VIS164,Paracetamolo,129,rawD87W3m,Graham,Chance,20,Rianon,Allender,170.00,"Fisioterapia e analgesici","Ernia del disco",martedi,21:00:00,17:00:00,100
+2024,5,F001,VIS164,Paracetamolo,129,rawD87W3m,Graham,Chance,20,Rianon,Allender,170.00,"Fisioterapia e analgesici","Ernia del disco",domenica,21:00:00,17:00:00,100
+2024,2,F001,VIS201,Paracetamolo,167,398PA4VP6,Cosimo,Feake,25,Emory,Adamolli,100.00,"Antipiretici e riposo",Influenza,mercoledi,16:00:00,12:00:00,100
+2021,4,F001,VIS001,Paracetamolo,1,1BX7x46a1,Nady,Hentzeler,6,Mylo,Sturzaker,50.00,Paracetamolo,Influenza,lunedi,17:00:00,13:00:00,100
+2021,4,F001,VIS001,Paracetamolo,1,1BX7x46a1,Nady,Hentzeler,6,Mylo,Sturzaker,50.00,Paracetamolo,Influenza,mercoledi,17:00:00,13:00:00,100
+2021,4,F001,VIS001,Paracetamolo,1,1BX7x46a1,Nady,Hentzeler,6,Mylo,Sturzaker,50.00,Paracetamolo,Influenza,venerdi,17:00:00,13:00:00,100
+2021,4,F001,VIS001,Paracetamolo,1,1BX7x46a1,Nady,Hentzeler,6,Mylo,Sturzaker,50.00,Paracetamolo,Influenza,sabato,17:00:00,13:00:00,100
+2023,5,F001,VIS063,Paracetamolo,64,007zV60XX,Edeline,O'Lynn,9,Hadrian,Ivasechko,85.00,"Fisioterapia e analgesico",Lombalgia,lunedi,12:00:00,08:00:00,100
+2023,4,F001,VIS067,Paracetamolo,68,2Pxkf483s,Alicea,Trimme,9,Hadrian,Ivasechko,95.00,"Fisioterapia intensiva e antidolorifici","Spondilite anchilosante",lunedi,12:00:00,08:00:00,100
+2023,5,F001,VIS063,Paracetamolo,64,007zV60XX,Edeline,O'Lynn,9,Hadrian,Ivasechko,85.00,"Fisioterapia e analgesico",Lombalgia,lunedi,20:00:00,16:00:00,100
+2023,4,F001,VIS067,Paracetamolo,68,2Pxkf483s,Alicea,Trimme,9,Hadrian,Ivasechko,95.00,"Fisioterapia intensiva e antidolorifici","Spondilite anchilosante",lunedi,20:00:00,16:00:00,100
+2023,5,F001,VIS063,Paracetamolo,64,007zV60XX,Edeline,O'Lynn,9,Hadrian,Ivasechko,85.00,"Fisioterapia e analgesico",Lombalgia,giovedi,12:00:00,08:00:00,100
+2023,4,F001,VIS067,Paracetamolo,68,2Pxkf483s,Alicea,Trimme,9,Hadrian,Ivasechko,95.00,"Fisioterapia intensiva e antidolorifici","Spondilite anchilosante",giovedi,12:00:00,08:00:00,100
+2023,5,F001,VIS063,Paracetamolo,64,007zV60XX,Edeline,O'Lynn,9,Hadrian,Ivasechko,85.00,"Fisioterapia e analgesico",Lombalgia,venerdi,20:00:00,16:00:00,100
+2023,4,F001,VIS067,Paracetamolo,68,2Pxkf483s,Alicea,Trimme,9,Hadrian,Ivasechko,95.00,"Fisioterapia intensiva e antidolorifici","Spondilite anchilosante",venerdi,20:00:00,16:00:00,100
+2021,4,F053,VIS014,aspirina,13,Bzno2PKeV,Ernaline,Grinyer,1,Brit,Dron,95.00,Antiemicranico,Emicrania,lunedi,12:00:00,08:00:00,102
+2021,5,F054,VIS016,seki,15,QiMI08f67,Sofie,Dimmer,1,Brit,Dron,70.00,"Riposo e fluidi",Bronchite,lunedi,12:00:00,08:00:00,102
+2021,4,F053,VIS018,aspirina,17,Kgy2Z783R,Boyce,Warlowe,1,Brit,Dron,95.00,Antiemicranico,Emicrania,lunedi,12:00:00,08:00:00,102
+2021,4,F053,VIS014,aspirina,13,Bzno2PKeV,Ernaline,Grinyer,1,Brit,Dron,95.00,Antiemicranico,Emicrania,venerdi,12:00:00,08:00:00,102
+2021,5,F054,VIS016,seki,15,QiMI08f67,Sofie,Dimmer,1,Brit,Dron,70.00,"Riposo e fluidi",Bronchite,venerdi,12:00:00,08:00:00,102
+2021,4,F053,VIS018,aspirina,17,Kgy2Z783R,Boyce,Warlowe,1,Brit,Dron,95.00,Antiemicranico,Emicrania,venerdi,12:00:00,08:00:00,102
+2020,2,F054,VIS075,seki,76,Jhj4n7zr5,Artemas,Rosentholer,12,Zacharie,Andrewartha,70.00,"Esami diagnostici e farmaci mucolitici","Bronchite cronica ostruttiva",martedi,13:00:00,09:00:00,102
+2020,2,F054,VIS075,seki,76,Jhj4n7zr5,Artemas,Rosentholer,12,Zacharie,Andrewartha,70.00,"Esami diagnostici e farmaci mucolitici","Bronchite cronica ostruttiva",giovedi,13:00:00,09:00:00,102
+2024,5,F053,VIS170,aspirina,139,f281k51N2,Poul,Saiens,18,Ekaterina,Myton,145.00,"Antibiotici e analgesici","Infezione urinaria",martedi,19:00:00,15:00:00,102
+2022,5,F053,VIS036,aspirina,35,tC7VGI9oY,Alexandros,Kingsman,19,Fabiano,Prattington,85.00,Fisioterapia,Borsite,martedi,20:00:00,16:00:00,102
+2022,5,F053,VIS036,aspirina,35,tC7VGI9oY,Alexandros,Kingsman,19,Fabiano,Prattington,85.00,Fisioterapia,Borsite,mercoledi,19:00:00,15:00:00,102
+2022,5,F053,VIS036,aspirina,35,tC7VGI9oY,Alexandros,Kingsman,19,Fabiano,Prattington,85.00,Fisioterapia,Borsite,giovedi,19:00:00,15:00:00,102
+2022,5,F053,VIS036,aspirina,35,tC7VGI9oY,Alexandros,Kingsman,19,Fabiano,Prattington,85.00,Fisioterapia,Borsite,venerdi,20:00:00,16:00:00,102
+2022,4,F054,VIS023,seki,22,o49AdsXZJ,Jonis,Lowis,3,Kenton,Puden,65.00,"Reidratazione e probiotici",Gastroenterite,lunedi,14:00:00,10:00:00,102
+2022,4,F054,VIS023,seki,22,o49AdsXZJ,Jonis,Lowis,3,Kenton,Puden,65.00,"Reidratazione e probiotici",Gastroenterite,domenica,14:00:00,10:00:00,102
+2020,2,F053,VIS077,aspirina,78,019GRtpdO,Traver,Baskeyfied,39,Olin,Kuhlmey,95.00,"Farmaci antiemicranici e terapia visiva","Emicrania oftalmica",lunedi,16:00:00,12:00:00,102
+2020,2,F053,VIS077,aspirina,78,019GRtpdO,Traver,Baskeyfied,39,Olin,Kuhlmey,95.00,"Farmaci antiemicranici e terapia visiva","Emicrania oftalmica",giovedi,20:00:00,16:00:00,102
+2020,2,F053,VIS077,aspirina,78,019GRtpdO,Traver,Baskeyfied,39,Olin,Kuhlmey,95.00,"Farmaci antiemicranici e terapia visiva","Emicrania oftalmica",venerdi,20:30:00,16:30:00,102
+2020,2,F053,VIS077,aspirina,78,019GRtpdO,Traver,Baskeyfied,39,Olin,Kuhlmey,95.00,"Farmaci antiemicranici e terapia visiva","Emicrania oftalmica",sabato,16:00:00,12:00:00,102
+2024,5,F053,VIS119,aspirina,119,u91w3sIhj,Caldwell,Ghent,45,Cindi,Towe,70.00,"Antinfiammatorio e fisioterapia",Artrosi,giovedi,16:30:00,12:30:00,102
+2024,5,F053,VIS128,aspirina,128,tsaT17Raw,Luce,Dufaur,45,Cindi,Towe,95.00,"Farmaci antiemicranici e terapia preventiva","Emicrania cronica",giovedi,16:30:00,12:30:00,102
+2024,4,F056,VIS176,"benazapril,",141,s0k9xAbQ0,Royce,Marsters,45,Cindi,Towe,180.00,"Farmaci per la pressione e riposo","Ipertensione maligna",giovedi,16:30:00,12:30:00,102
+2024,5,F053,VIS119,aspirina,119,u91w3sIhj,Caldwell,Ghent,45,Cindi,Towe,70.00,"Antinfiammatorio e fisioterapia",Artrosi,venerdi,16:00:00,12:00:00,102
+2024,5,F053,VIS128,aspirina,128,tsaT17Raw,Luce,Dufaur,45,Cindi,Towe,95.00,"Farmaci antiemicranici e terapia preventiva","Emicrania cronica",venerdi,16:00:00,12:00:00,102
+2024,4,F056,VIS176,"benazapril,",141,s0k9xAbQ0,Royce,Marsters,45,Cindi,Towe,180.00,"Farmaci per la pressione e riposo","Ipertensione maligna",venerdi,16:00:00,12:00:00,102
+2022,1,F054,VIS035,seki,34,zYu9A99Su,Jesse,Shadrach,5,Burtie,Shakshaft,70.00,"Riposo e fluidi",Bronchite,lunedi,16:00:00,12:00:00,102
+2022,1,F054,VIS035,seki,34,zYu9A99Su,Jesse,Shadrach,5,Burtie,Shakshaft,70.00,"Riposo e fluidi",Bronchite,venerdi,16:00:00,12:00:00,102
+2024,3,F056,VIS169,"benazapril,",137,1rL1TtkFw,Creigh,Bierman,53,Clyve,Lafond,140.00,"Farmaci per la pressione e riposo",Ipotensione,venerdi,14:30:00,10:30:00,102
+2024,3,F056,VIS169,"benazapril,",137,1rL1TtkFw,Creigh,Bierman,53,Clyve,Lafond,140.00,"Farmaci per la pressione e riposo",Ipotensione,sabato,14:00:00,10:00:00,102
+2023,1,F053,VIS052,aspirina,53,929v9j4ji,Benedicto,Ford,8,Ezra,Wildber,60.00,Antinfiammatorio,Artrite,lunedi,19:00:00,15:00:00,102
+2023,4,F054,VIS053,seki,54,rA3s8F1Hp,Benedikta,McGloughlin,8,Ezra,Wildber,70.00,"Riposo e fluidi",Bronchite,lunedi,19:00:00,15:00:00,102
+2023,2,F053,VIS055,aspirina,56,8a34f6Pd0,Wye,Akrigg,8,Ezra,Wildber,95.00,Antiemicranico,Emicrania,lunedi,19:00:00,15:00:00,102
+2023,1,F053,VIS052,aspirina,53,929v9j4ji,Benedicto,Ford,8,Ezra,Wildber,60.00,Antinfiammatorio,Artrite,giovedi,19:00:00,15:00:00,102
+2023,4,F054,VIS053,seki,54,rA3s8F1Hp,Benedikta,McGloughlin,8,Ezra,Wildber,70.00,"Riposo e fluidi",Bronchite,giovedi,19:00:00,15:00:00,102
+2023,2,F053,VIS055,aspirina,56,8a34f6Pd0,Wye,Akrigg,8,Ezra,Wildber,95.00,Antiemicranico,Emicrania,giovedi,19:00:00,15:00:00,102
+2023,1,F053,VIS066,aspirina,67,FA1JZN41d,Cliff,Ivanikhin,9,Hadrian,Ivasechko,85.00,"Farmaci antiemicranici e terapia di rilassamento","Cefalea tensiva",lunedi,12:00:00,08:00:00,102
+2023,1,F053,VIS066,aspirina,67,FA1JZN41d,Cliff,Ivanikhin,9,Hadrian,Ivasechko,85.00,"Farmaci antiemicranici e terapia di rilassamento","Cefalea tensiva",lunedi,20:00:00,16:00:00,102
+2023,1,F053,VIS066,aspirina,67,FA1JZN41d,Cliff,Ivanikhin,9,Hadrian,Ivasechko,85.00,"Farmaci antiemicranici e terapia di rilassamento","Cefalea tensiva",giovedi,12:00:00,08:00:00,102
+2023,1,F053,VIS066,aspirina,67,FA1JZN41d,Cliff,Ivanikhin,9,Hadrian,Ivasechko,85.00,"Farmaci antiemicranici e terapia di rilassamento","Cefalea tensiva",venerdi,20:00:00,16:00:00,102
+2024,5,F060,VIS179,Buscopan,144,238Fau85u,Odella,Chittock,16,Grantley,Nayshe,175.00,"Antispastici e riposo","Colica renale",martedi,17:00:00,13:00:00,150
+2024,5,F060,VIS179,Buscopan,144,238Fau85u,Odella,Chittock,16,Grantley,Nayshe,175.00,"Antispastici e riposo","Colica renale",domenica,17:00:00,13:00:00,150
+2024,4,F059,VIS180,Cardioaspirin,145,981x0Lavl,Gratia,Ostrich,17,Deirdre,Kellie,190.00,"Ossigenoterapia e farmaci per il cuore","Insufficienza cardiaca",lunedi,15:00:00,11:00:00,150
+2024,5,F061,VIS194,metoclopramide,153,vuIIK5302,Kitty,Giacoppo,17,Deirdre,Kellie,55.00,"Antiemetici e riposo",Gastrite,lunedi,15:00:00,11:00:00,150
+2024,3,F062,VIS207,minitran,179,YX9ScgEAf,Herve,Jacques,17,Deirdre,Kellie,60.00,"Ossigenoterapia e nitroglicerina",Angina,lunedi,15:00:00,11:00:00,150
+2024,4,F059,VIS180,Cardioaspirin,145,981x0Lavl,Gratia,Ostrich,17,Deirdre,Kellie,190.00,"Ossigenoterapia e farmaci per il cuore","Insufficienza cardiaca",martedi,18:00:00,14:00:00,150
+2024,5,F061,VIS194,metoclopramide,153,vuIIK5302,Kitty,Giacoppo,17,Deirdre,Kellie,55.00,"Antiemetici e riposo",Gastrite,martedi,18:00:00,14:00:00,150
+2024,3,F062,VIS207,minitran,179,YX9ScgEAf,Herve,Jacques,17,Deirdre,Kellie,60.00,"Ossigenoterapia e nitroglicerina",Angina,martedi,18:00:00,14:00:00,150
+2024,4,F059,VIS180,Cardioaspirin,145,981x0Lavl,Gratia,Ostrich,17,Deirdre,Kellie,190.00,"Ossigenoterapia e farmaci per il cuore","Insufficienza cardiaca",giovedi,15:00:00,11:00:00,150
+2024,5,F061,VIS194,metoclopramide,153,vuIIK5302,Kitty,Giacoppo,17,Deirdre,Kellie,55.00,"Antiemetici e riposo",Gastrite,giovedi,15:00:00,11:00:00,150
+2024,3,F062,VIS207,minitran,179,YX9ScgEAf,Herve,Jacques,17,Deirdre,Kellie,60.00,"Ossigenoterapia e nitroglicerina",Angina,giovedi,15:00:00,11:00:00,150
+2024,5,F062,VIS211,minitran,185,Zcu28xg1P,Thelma,Jeff,20,Rianon,Allender,85.00,"Ossigenoterapia e nitroglicerina","Infarto miocardico",lunedi,21:30:00,17:30:00,150
+2024,5,F062,VIS211,minitran,185,Zcu28xg1P,Thelma,Jeff,20,Rianon,Allender,85.00,"Ossigenoterapia e nitroglicerina","Infarto miocardico",martedi,21:00:00,17:00:00,150
+2024,5,F062,VIS211,minitran,185,Zcu28xg1P,Thelma,Jeff,20,Rianon,Allender,85.00,"Ossigenoterapia e nitroglicerina","Infarto miocardico",domenica,21:00:00,17:00:00,150
+2024,5,F059,VIS183,Cardioaspirin,148,JiPNq2n5h,Rosalind,Barstock,24,Vinita,Pady,175.00,"Controllo cardiologico e farmaci","Angina pectoris",mercoledi,15:00:00,11:00:00,150
+2024,5,F059,VIS183,Cardioaspirin,148,JiPNq2n5h,Rosalind,Barstock,24,Vinita,Pady,175.00,"Controllo cardiologico e farmaci","Angina pectoris",giovedi,15:00:00,11:00:00,150
+2024,4,F061,VIS203,metoclopramide,171,6ywJIjgtQ,Alecia,Cissen,53,Clyve,Lafond,65.00,"Antiemetici e idratazione",Gastroenterite,venerdi,14:30:00,10:30:00,150
+2024,4,F061,VIS203,metoclopramide,171,6ywJIjgtQ,Alecia,Cissen,53,Clyve,Lafond,65.00,"Antiemetici e idratazione",Gastroenterite,sabato,14:00:00,10:00:00,150
+2024,4,F058,VIS182,Sideral,147,tsaT17Raw,Luce,Dufaur,20,Rianon,Allender,185.00,"Esami del sangue e integratori",Anemia,lunedi,21:30:00,17:30:00,200
+2024,4,F058,VIS182,Sideral,147,tsaT17Raw,Luce,Dufaur,20,Rianon,Allender,185.00,"Esami del sangue e integratori",Anemia,martedi,21:00:00,17:00:00,200
+2024,4,F058,VIS182,Sideral,147,tsaT17Raw,Luce,Dufaur,20,Rianon,Allender,185.00,"Esami del sangue e integratori",Anemia,domenica,21:00:00,17:00:00,200
+2021,3,F055,VIS019,probiotici,18,a4JU775Pu,Cynthie,Krolle,1,Brit,Dron,60.00,Antiemetico,Gastroenterite,lunedi,12:00:00,08:00:00,250
+2021,3,F055,VIS019,probiotici,18,a4JU775Pu,Cynthie,Krolle,1,Brit,Dron,60.00,Antiemetico,Gastroenterite,venerdi,12:00:00,08:00:00,250
+2023,2,F113,VIS144,inalatori,89,7bYxSo724,Blondie,Kennedy,12,Zacharie,Andrewartha,67.25,"augumentin, inalatori","infezione virale",martedi,13:00:00,09:00:00,250
+2023,2,F113,VIS144,inalatori,89,7bYxSo724,Blondie,Kennedy,12,Zacharie,Andrewartha,67.25,"augumentin, inalatori","infezione virale",giovedi,13:00:00,09:00:00,250
+2023,2,F055,VIS042,probiotici,41,wN0HcDRA3,Bealle,Rootes,19,Fabiano,Prattington,65.00,"Reidratazione e probiotici",Gastroenterite,martedi,20:00:00,16:00:00,250
+2023,2,F055,VIS042,probiotici,41,wN0HcDRA3,Bealle,Rootes,19,Fabiano,Prattington,65.00,"Reidratazione e probiotici",Gastroenterite,mercoledi,19:00:00,15:00:00,250
+2023,2,F055,VIS042,probiotici,41,wN0HcDRA3,Bealle,Rootes,19,Fabiano,Prattington,65.00,"Reidratazione e probiotici",Gastroenterite,giovedi,19:00:00,15:00:00,250
+2023,2,F055,VIS042,probiotici,41,wN0HcDRA3,Bealle,Rootes,19,Fabiano,Prattington,65.00,"Reidratazione e probiotici",Gastroenterite,venerdi,20:00:00,16:00:00,250
+2023,4,F055,VIS060,probiotici,61,238Fau85u,Odella,Chittock,27,Darrick,MacGuffog,65.00,"Reidratazione e probiotici",Gastroenterite,lunedi,18:00:00,14:00:00,250
+2023,4,F055,VIS060,probiotici,61,238Fau85u,Odella,Chittock,27,Darrick,MacGuffog,65.00,"Reidratazione e probiotici",Gastroenterite,martedi,13:00:00,09:00:00,250
+2023,4,F055,VIS060,probiotici,61,238Fau85u,Odella,Chittock,27,Darrick,MacGuffog,65.00,"Reidratazione e probiotici",Gastroenterite,mercoledi,18:00:00,14:00:00,250
+2023,4,F055,VIS060,probiotici,61,238Fau85u,Odella,Chittock,27,Darrick,MacGuffog,65.00,"Reidratazione e probiotici",Gastroenterite,venerdi,13:00:00,09:00:00,250
+2022,4,F055,VIS031,probiotici,30,LBBLfiYIY,Amalia,Tomaschke,5,Burtie,Shakshaft,65.00,"Reidratazione e probiotici",Gastroenterite,lunedi,16:00:00,12:00:00,250
+2022,2,F055,VIS037,probiotici,36,31Z88mJ5t,Waldo,Quinton,5,Burtie,Shakshaft,95.00,Antiemicranico,Emicrania,lunedi,16:00:00,12:00:00,250
+2022,5,F055,VIS041,probiotici,40,bhYCdZjba,Jacenta,Stainland,5,Burtie,Shakshaft,90.00,"ECG ","Angina pectoris",lunedi,16:00:00,12:00:00,250
+2022,4,F055,VIS031,probiotici,30,LBBLfiYIY,Amalia,Tomaschke,5,Burtie,Shakshaft,65.00,"Reidratazione e probiotici",Gastroenterite,venerdi,16:00:00,12:00:00,250
+2022,2,F055,VIS037,probiotici,36,31Z88mJ5t,Waldo,Quinton,5,Burtie,Shakshaft,95.00,Antiemicranico,Emicrania,venerdi,16:00:00,12:00:00,250
+2022,5,F055,VIS041,probiotici,40,bhYCdZjba,Jacenta,Stainland,5,Burtie,Shakshaft,90.00,"ECG ","Angina pectoris",venerdi,16:00:00,12:00:00,250
+2023,4,F055,VIS056,probiotici,57,A2E18699w,Carita,Bretherton,9,Hadrian,Ivasechko,60.00,Antiemetico,Gastroenterite,lunedi,12:00:00,08:00:00,250
+2023,4,F055,VIS056,probiotici,57,A2E18699w,Carita,Bretherton,9,Hadrian,Ivasechko,60.00,Antiemetico,Gastroenterite,lunedi,20:00:00,16:00:00,250
+2023,4,F055,VIS056,probiotici,57,A2E18699w,Carita,Bretherton,9,Hadrian,Ivasechko,60.00,Antiemetico,Gastroenterite,giovedi,12:00:00,08:00:00,250
+2023,4,F055,VIS056,probiotici,57,A2E18699w,Carita,Bretherton,9,Hadrian,Ivasechko,60.00,Antiemetico,Gastroenterite,venerdi,20:00:00,16:00:00,250
